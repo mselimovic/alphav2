@@ -1,11 +1,84 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  navbar
-</body>
-</html>
+<div id="menu-wrap" class="menu-back cbp-af-header dark pt-0 pb-0 fixed-top">
+    <div class="">
+        <div class="top-nav gx-0 align-items-center d-none d-lg-flex bg-alpha-dark" style="">
+            <div class="container-xxl d-flex align-items-center">
+                <div class="col-lg-6 text-start px-0">
+                    <div class="d-flex">
+                        <a href="" class="d-flex align-items-center " style="text-decoration: none;"><i
+                                class="fa-regular fa-clock" style="color: #fff"></i>
+                            <p class="text-light mb-0 ps-2">@lang('common.mon_sat') 8-17h</p>
+                        </a>
+                    </div>
+                </div>
+                <div
+                    class="col-lg-6 text-end text-light px-0 d-flex align-items-center justify-content-end lang-menu-drop">
+                    <div class="d-flex">
+                        <a href="mailto:info@alphacardetail.com" class="d-flex align-items-center "
+                            style="text-decoration: none;"> <i class="fa-regular fa-envelope" style="color: #fff"></i>
+                            <p class="text-light mb-0 ps-2">info@alphacardetail.com</p>
+                        </a>
+                        <a href="tel:+49 1575 7838320" class="d-flex align-items-center ps-3"
+                            style="text-decoration: none;"> <i class="fa-solid fa-phone-volume" style="color: #fff"></i>
+                            <p class="text-light mb-0 ps-2">+49 1575 7838320</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg navbar-light bg-alpha-primary mx-lg-0 navbar-mobile">
+                    <div class="justify-content-end d-flex">logo
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse justify-content-lg-center" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('homepage.index') }}">@lang('common.home')</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('pages.services') }}">@lang('common.services')</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('pages.about') }}">@lang('common.monteurzimmer')</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('pages.services') }}">@lang('common.request')</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('pages.projects') }}">@lang('common.about')</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('pages.contact') }}">@lang('common.contact')</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <li class="">
+                        <div class="dropdown ms-2">
+                            <button type="button" class="btn btn-primary rounded-0 dropdown-toggle text-white"
+                                data-bs-toggle="dropdown">
+                            </button>
+                            <ul class="dropdown-menu rounded-0 bg-primary mx-2 ">
+                                <li><a class="dropdown-item text-white" href="{{ route('lang', ['locale' => 'ba']) }}">
+                                        @lang('common.language_ba')</a>
+                                </li>
+                                <li><a class="dropdown-item text-white"
+                                        href="{{ route('lang', ['locale' => 'en']) }}">@lang('common.language_en')</a>
+                                </li>
+                                <li><a class="dropdown-item text-white" href="{{ route('lang', ['locale' => 'de']) }}">
+                                        @lang('common.language_de')</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+

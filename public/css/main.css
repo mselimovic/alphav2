@@ -1,0 +1,20 @@
+.bg-alpha-primary {
+    background-color: #0092ca;
+}
+
+.bg-alpha-secondary {
+    background-color: #cca000;
+}
+
+.bg-alpha-dark {
+   background-color: #333333;
+}
+
+a {
+    text-decoration: none !important;
+}
+#menu-wrap {
+    position: relative;
+    top: auto;
+    left: auto;
+}

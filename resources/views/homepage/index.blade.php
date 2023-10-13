@@ -1,3 +1,4 @@
-<guest-layout>
-@include('homepage.sections.hero');
-</guest-layout>
+@extends('layouts.guest')
+@section('content')
+@include('homepage.sections.hero')
+@endsection

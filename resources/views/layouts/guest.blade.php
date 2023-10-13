@@ -7,7 +7,7 @@
 @include('layouts.navbar')
 @show
 {{-- content --}}
-{{$slot}}
+@yield('content')
 
 {{-- footer --}}
 @section('footer')
