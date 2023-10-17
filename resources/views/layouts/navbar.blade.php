@@ -26,18 +26,16 @@
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <nav class="navbar navbar-expand-lg navbar-light bg-alpha-primary mx-lg-0 navbar-mobile">
-                    <div class="justify-content-end d-flex">logo
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
+                <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+                    <div class="container">
+                        <a class="navbar-brand" href="#page-top"><img src="assets/img/logo-alpha-04.png" alt="..." /></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                          Menu
+                          <i class="fas fa-bars ms-1"></i>
                         </button>
-                    </div>
-                    <div class="collapse navbar-collapse justify-content-lg-center" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto">
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('homepage.index') }}">@lang('common.home')</a>
                             </li>
@@ -58,10 +56,10 @@
                             </li>
                         </ul>
                     </div>
-                    <li class="">
+                    {{-- <li class="">
                         <div class="dropdown ms-2">
                             <button type="button" class="btn btn-primary rounded-0 dropdown-toggle text-white"
-                                data-bs-toggle="dropdown">
+                                data-bs-toggle="dropdown"> @lang('common.language_' . app()->getLocale())</button>
                             </button>
                             <ul class="dropdown-menu rounded-0 bg-primary mx-2 ">
                                 <li><a class="dropdown-item text-white" href="{{ route('lang', ['locale' => 'ba']) }}">
@@ -75,10 +73,9 @@
                                 </li>
                             </ul>
                         </div>
-                    </li>
+                    </li> --}}
+                  </div>
                 </nav>
-            </div>
-        </div>
-    </div>
 </div>
+
 
