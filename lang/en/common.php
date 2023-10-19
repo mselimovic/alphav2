@@ -18,6 +18,12 @@ return [
     'language_ba' => 'BA',
     'language_en' => 'EN',
     'language_de' => 'DE',
+    'home' => 'Home',
+    'services' => 'Services',
+    'about' => 'About',
+    'request' => 'Request',
+    'gallery' => 'Gallery',
+    'contact' => 'Contact',
 
 
 ];

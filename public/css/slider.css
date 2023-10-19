@@ -1,28 +1,22 @@
-.mar10 {
-
-  padding:217px;
-}
-
 /* .carousel-control-prev-icon::before {
 
 } */
-
 .carousel-indicators {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  left: auto;
-  width: auto;
-  margin-right: 15%;
-  margin-left: 0;
+position: absolute;
+bottom: 0;
+right: 0;
+left: auto;
+width: auto;
+margin-right: 15%;
+margin-left: 0;
 }
 
 .carousel-indicators button {
-  background-color: transparent;
-  border: 2px solid white;
-  height: 100px;
+background-color: transparent;
+border: 2px solid white;
+height: 100px;
 }
 
 .carousel-indicators .active {
-  background-color: white;
+background-color: white;
 }

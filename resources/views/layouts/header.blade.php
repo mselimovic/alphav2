@@ -26,9 +26,7 @@
 
     <!-- Stylesheet -->
     <link href="{{ asset('css/main.css') }}" rel="stylesheet">
-  
-    <link href="{{ asset('css/styles.css') }}" rel="stylesheet">
     <link href="{{ asset('css/slider.css') }}" rel="stylesheet">
-  
+
 
 </head>

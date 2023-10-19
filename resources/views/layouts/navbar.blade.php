@@ -26,37 +26,37 @@
             </div>
         </div>
     </div>
-                <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-                    <div class="container">
-                        <a class="navbar-brand" href="#page-top"><img src="assets/img/logo-alpha-04.png" alt="..." /></a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-                          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                          Menu
-                          <i class="fas fa-bars ms-1"></i>
-                        </button>
-                    <div class="collapse navbar-collapse" id="navbarResponsive">
-                        <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('homepage.index') }}">@lang('common.home')</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('pages.services') }}">@lang('common.services')</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('pages.about') }}">@lang('common.monteurzimmer')</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('pages.services') }}">@lang('common.request')</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('pages.projects') }}">@lang('common.about')</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('pages.contact') }}">@lang('common.contact')</a>
-                            </li>
-                        </ul>
-                    </div>
-                    {{-- <li class="">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-alpha-primary" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#page-top"><img src="assets/img/logo-alpha-04.png" alt="..." /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars ms-1"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="{{ route('homepage.index') }}">@lang('common.home')</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="{{ route('pages.services') }}">@lang('common.services')</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="{{ route('pages.about') }}">@lang('common.about')</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="{{ route('pages.services') }}">@lang('common.request')</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="{{ route('pages.projects') }}">@lang('common.gallery')</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="{{ route('pages.contact') }}">@lang('common.contact')</a>
+                    </li>
+                </ul>
+            </div>
+            {{-- <li class="">
                         <div class="dropdown ms-2">
                             <button type="button" class="btn btn-primary rounded-0 dropdown-toggle text-white"
                                 data-bs-toggle="dropdown"> @lang('common.language_' . app()->getLocale())</button>
@@ -74,8 +74,6 @@
                             </ul>
                         </div>
                     </li> --}}
-                  </div>
-                </nav>
+        </div>
+    </nav>
 </div>
-
-

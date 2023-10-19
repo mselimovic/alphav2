@@ -1,7 +1,6 @@
 <?php
 
 return [
-
     /*
     |--------------------------------------------------------------------------
     | Authentication Language Lines
@@ -18,5 +17,10 @@ return [
     'language_ba' => 'BA',
     'language_en' => 'EN',
     'language_de' => 'DE',
-
+    'home' => 'Početna',
+    'services' => 'Usluge',
+    'about' => 'O nama',
+    'request' => 'Zahtjev',
+    'gallery' => 'Galerija',
+    'contact' => 'Kontakt',
 ];
