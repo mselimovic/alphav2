@@ -2,14 +2,14 @@
 
 } */
 .carousel-indicators {
-position: absolute;
-bottom: 0;
-right: 0;
-left: auto;
-width: auto;
-margin-right: 15%;
-margin-left: 0;
-}
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: auto;
+    width: auto;
+    margin-right: 15%;
+    margin-left: 0;
+  }
 
 .carousel-indicators button {
 background-color: transparent;
@@ -20,3 +20,20 @@ height: 100px;
 .carousel-indicators .active {
 background-color: white;
 }
+
+.carousel-inner {
+    height: calc(100vh - 73px); 
+  }
+  
+  .carousel-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }

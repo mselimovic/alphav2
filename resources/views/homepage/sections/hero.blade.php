@@ -1,3 +1,4 @@
+<div id="carouselContainer">
 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
     <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -11,18 +12,20 @@
     </div>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="img/aa.jpg" class="d-block w-100" alt="...">
+            <img src="img/aa.jpg" class="d-block " alt="...">
+            <div class="carousel-caption">
+                <p>Tekstasdasdasdada</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="img/aaa.jpg" class="d-block " alt="...">
 
         </div>
         <div class="carousel-item">
-            <img src="img/aaa.jpg" class="d-block w-100" alt="...">
-
+            <img src="img/aaaa.jpg" class="d-block " alt="...">
         </div>
         <div class="carousel-item">
-            <img src="img/aaaa.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img src="img/aa.jpg" class="d-block w-100" alt="...">
+            <img src="img/aa.jpg" class="d-block " alt="...">
 
         </div>
     </div>
@@ -34,4 +37,5 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
     </button>
+</div>
 </div>
