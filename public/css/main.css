@@ -1,31 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 body {
-    font-family: 'Oswald', sans-serif !important;
+font-family: 'Oswald', sans-serif !important;
 }
 .bg-alpha-primary {
-    background-color: #0092ca;
+background-color: #0092ca;
 }
 
 .bg-alpha-secondary {
-    background-color: #cca000;
+background-color: #cca000;
 }
 
 .bg-alpha-dark {
-   background-color: #333333;
+background-color: #333333;
 }
 
 a {
-    text-decoration: none !important;
+text-decoration: none !important;
 }
 #menu-wrap {
-    position: relative;
-    top: auto;
-    left: auto;
+position: relative;
+top: auto;
+left: auto;
 }
 
 .nav-link:hover,
 .nav-link:active,
 .nav-link:focus {
 color: #cca000 !important;
+}
+
+.carousel-caption {
+opacity: 0;
+transition: opacity 0.5s;
+}
+
+.carousel-item.active .carousel-caption {
+opacity: 1;
+transition: opacity 0.5s;
+}
+
+hr {
+    color: #0092ca;
+    padding: 0;
+    margin: 0;
+    z-index: 9999;
 }
