@@ -1,5 +1,5 @@
 <div id="carouselContainer">
-<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="100000">
     <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
             aria-current="true" aria-label="Slide 1"></button>
@@ -12,20 +12,35 @@
     </div>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="img/aa.jpg" class="d-block " alt="...">
-            <div class="carousel-caption">
-                <p>Tekstasdasdasdada</p>
+            <img src="img/aa.jpg" class="d-block" alt="...">
+            <div class="overlay"></div>
+            <div class="carousel-caption caption-left-center">
+                <h1>Alpha Car Detail </h1>
+                <p>@lang('common.slider_text')</p>
+                <a href="#" class="neon-btn">@lang('common.slider_button_text')</a>
+            </div>
+        </div>
+        
+        <div class="carousel-item">
+            <img src="img/aaa.jpg" class="d-block " alt="...">
+            <div class="overlay"></div>
+            <div class="carousel-caption caption-left-center-heading">
+                <p>Alpha Car Detail</p>
             </div>
         </div>
         <div class="carousel-item">
-            <img src="img/aaa.jpg" class="d-block " alt="...">
-
-        </div>
-        <div class="carousel-item">
             <img src="img/aaaa.jpg" class="d-block " alt="...">
+            <div class="overlay"></div>
+            <div class="carousel-caption caption-left-center-heading">
+                <p>Alpha Car Detail</p>
+            </div>
         </div>
         <div class="carousel-item">
             <img src="img/aa.jpg" class="d-block " alt="...">
+            <div class="overlay"></div>
+            <div class="carousel-caption caption-left-center-heading">
+                <p>Alpha Car Detail</p>
+            </div>
 
         </div>
     </div>

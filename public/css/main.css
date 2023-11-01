@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
+body {
+    font-family: 'Oswald', sans-serif !important;
+}
 .bg-alpha-primary {
     background-color: #0092ca;
 }
@@ -18,4 +22,10 @@ a {
     position: relative;
     top: auto;
     left: auto;
+}
+
+.nav-link:hover,
+.nav-link:active,
+.nav-link:focus {
+color: #cca000 !important;
 }

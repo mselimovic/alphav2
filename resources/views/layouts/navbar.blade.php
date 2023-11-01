@@ -1,6 +1,6 @@
-<div id="menu-wrap" class="menu-back cbp-af-header dark pt-0 pb-0 fixed-top">
+<div id="menu-wrap" class="menu-back cbp-af-header pt-0 pb-0 fixed-top">
     <div class="">
-        <div class="top-nav gx-0 align-items-center d-none d-lg-flex bg-alpha-dark" style="">
+        <div class="top-nav gx-0 align-items-center d-none d-lg-flex bg-alpha-primary" style="">
             <div class="container-xxl d-flex align-items-center">
                 <div class="col-lg-6 text-start px-0">
                     <div class="d-flex">
@@ -26,16 +26,16 @@
             </div>
         </div>
     </div>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-alpha-primary" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-alpha-dark" id="mainNav">
         <div class="container">
-            <a class="navbar-brand" href="#page-top"><img src="assets/img/logo-alpha-04.png" alt="..." /></a>
+            <a class="navbar-brand" href="#page-top"><img src="img/logo-alpha-04.png" height="50px" alt="..." /></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
                 <i class="fas fa-bars ms-1"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                <ul class="navbar-nav text-uppercase ms-auto py-lg-0">
                     <li class="nav-item">
                         <a class="nav-link text-light" href="{{ route('homepage.index') }}">@lang('common.home')</a>
                     </li>

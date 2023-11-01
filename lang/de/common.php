@@ -24,6 +24,8 @@ return [
     'request' => 'Anfrage',
     'gallery' => 'Galerie',
     'contact' => 'Kontakt',
+    'slider_text' => 'Unsere Aufbereitungsdienste konzentrieren sich darauf, die Qualität des Aussehens Ihres Autos zu verbessern und zu erhalten. nicht nur sauber zu machen, sondern Ihren Fahrzeuglack besser aussehen zu lassen als neu.',
+    'slider_button_text' => 'Projektgalerie',
 
 
 ];
