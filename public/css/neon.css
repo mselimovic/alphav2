@@ -33,7 +33,6 @@
   
   .neon-btn::before {
     pointer-events: none;
-   content: '';  
    position: absolute;
    background-color: var(--clr-neon);
    top: 120%;
@@ -72,3 +71,6 @@
   .neon-btn:focus::before {
     opacity: 1;
   }
+
+
+ 
