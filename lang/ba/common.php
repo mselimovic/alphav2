@@ -25,4 +25,6 @@ return [
     'contact' => 'Kontakt',
     'slider_text' => 'Naše usluge usmjerene su na poboljšanje i održavanje kvalitete izgleda vašeg automobila. Ne samo za čišćenje, već i to da boja vašeg vozila izgleda bolje nego nova.',
     'slider_button_text' => 'Galerija projekata',
+    'pro_care' => 'PROFESIONALNA ZAŠTITA I NJEGA VOZILA',
+    
 ];

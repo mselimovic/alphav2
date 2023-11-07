@@ -24,4 +24,5 @@
 <link href="{{ asset('css/main.css') }}" rel="stylesheet">
 <link href="{{ asset('css/slider.css') }}" rel="stylesheet">
 <link href="{{ asset('css/neon.css') }}" rel="stylesheet">
+<link href="{{ asset('css/navbar.css') }}" rel="stylesheet">
 </body>

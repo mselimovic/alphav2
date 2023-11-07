@@ -26,6 +26,7 @@ return [
     'contact' => 'Contact',
     'slider_text' => "Our detailing services focus on improving and maintaining the quality of your car's appearance. Not only to clean, but to make your vehicle paint look better than new.",
     'slider_button_text' => 'Projects Gallery',
+    'pro_care' => 'PROFESSIONAL VEHICLE PROTECTION AND CARE',
 
 
 ];

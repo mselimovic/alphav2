@@ -28,7 +28,7 @@
     </div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-alpha-dark" id="mainNav">
         <div class="container">
-            <a class="navbar-brand" href="#page-top"><img src="img/logo-alpha-04.png" height="50px" alt="..." /></a>
+            <a class="navbar-brand" href="#"><img src="img/logo-alpha-04.png" height="50px" alt="..." /></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
