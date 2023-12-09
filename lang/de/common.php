@@ -27,7 +27,8 @@ return [
     'slider_text' => 'Unsere Aufbereitungsdienste konzentrieren sich darauf, die Qualität des Aussehens Ihres Autos zu verbessern und zu erhalten. nicht nur sauber zu machen, sondern Ihren Fahrzeuglack besser aussehen zu lassen als neu.',
     'slider_button_text' => 'Projektgalerie',
     'pro_care' => 'PROFESSIONELLER FAHRZEUGSCHUTZ UND PFLEGE',
-    
-
+    'schedule' => 'Buchen',
+    'ceramic_card_heading' => 'Keramikbeschichtung',
+    'ceramic_card_text' => 'Hochwertige Keramikbeschichtung ist eine chemische Polymerlösung, die auf die Außenseite eines Fahrzeugs aufgetragen wird, um es vor äußeren Lackschäden zu schützen. Sie wird in der Regel von Hand aufgetragen, verbindet sich mit dem Lack Ihres Autos und bildet eine zusätzliche hydrophobe Schutzschicht.',
 
 ];

@@ -16,7 +16,12 @@ background-color: #cca000;
 .bg-alpha-dark {
 background-color: #333333;
 }
-
+.alpha-primary {
+  color: #0092ca;
+}
+.alpha-secondary {
+  color: #cca000;
+}
 .carousel-caption {
 opacity: 0;
 transition: opacity 0.5s;
@@ -51,9 +56,6 @@ hr {
   align-items: center;
   padding: 15px;
 }
-
-
-
 .social-custom {
   list-style-type: none;
   position: fixed;
@@ -67,19 +69,22 @@ hr {
   height: 30px;
   margin: 10px;
 }
+.social-custom li a img {
+  filter: brightness(0) invert(1);
+}
 .social-custom::after {
   content: "";
   display: block;
   width: 1px;
   height: 150px;
   margin: 0px auto;
-  background-color: #333;
+  background-color: #ffffff;
   bottom: 0;
 }
 .social-custom li img:hover {
   animation: shake 0.3s;
   cursor: pointer;
-  filter: drop-shadow(0 0 0.1rem black);
+  filter: drop-shadow(0 0 0.1rem white);
 }
 @keyframes shake {
   0% {
@@ -96,5 +101,11 @@ hr {
   }
   100% {
     transform: translate(0px, 0px) rotate(0deg);
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .social-custom {
+    display: none;
   }
 }

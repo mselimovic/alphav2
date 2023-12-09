@@ -27,6 +27,13 @@ return [
     'slider_text' => "Our detailing services focus on improving and maintaining the quality of your car's appearance. Not only to clean, but to make your vehicle paint look better than new.",
     'slider_button_text' => 'Projects Gallery',
     'pro_care' => 'PROFESSIONAL VEHICLE PROTECTION AND CARE',
+    'schedule' => 'Book',
+    'ceramic_card_heading' => 'Ceramic Coating',
+    'ceramic_card_text' => "High-quality ceramic coating is a chemical polymer solution applied to the exterior of a vehicle to protect it from external paint damage. It is typically applied by hand, bonding with your car's paint and forming an additional hydrophobic protective layer.",
+    'polish_card_heading' => 'Professional Polishing',
+    'interior_card_heading' => 'Interior Cleaning',
+
+    
 
 
 ];

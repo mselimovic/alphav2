@@ -26,5 +26,11 @@ return [
     'slider_text' => 'Naše usluge usmjerene su na poboljšanje i održavanje kvalitete izgleda vašeg automobila. Ne samo za čišćenje, već i to da boja vašeg vozila izgleda bolje nego nova.',
     'slider_button_text' => 'Galerija projekata',
     'pro_care' => 'PROFESIONALNA ZAŠTITA I NJEGA VOZILA',
+    'schedule' => 'Rezerviši',
+    'ceramic_card_heading' => 'Keramičko premazivanje',
+    'ceramic_card_text' => 'Kvalitetno keramičko premazivanje je hemijski polimerni rastvor koji se nanosi na vanjsku stranu vozila kako bi ga zaštitio od spoljnih oštećenja boje. Obično se nanosi ručno, spajajući se sa bojom vašeg automobila i formirajući dodatni hidrofobni zaštitni sloj.',
+    'polish_card_heading' => 'Profesionalno poliranje',
+    'interior_card_heading' => 'Čišćenje enterijera',
+
     
 ];

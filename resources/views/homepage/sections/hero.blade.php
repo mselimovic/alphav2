@@ -1,63 +1,38 @@
-
-<div id="carouselContainer">
-<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="100000">
-    <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-            aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-            aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-            aria-label="Slide 3"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
-            aria-label="Slide 4"></button>
-    </div>
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="img/aa.jpg" class="d-block" alt="...">
-            <div class="overlay"></div>
-            <div  class="carousel-caption caption-left-center">
-                <h1>Alpha Car Detail </h1>
-                <p>@lang('common.slider_text')</p>
-                <a href="#" class="btn btn-warning px-3">@lang('common.slider_button_text')</a>
+<div class="container-fluid p-0 wow fadeIn" data-wow-delay="0.1s">
+    <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="overlay"></div>
+                <img class="w-100" src="img/alpha_car_detail_slider2.jpg" alt="Alpha Car Detail slider photo">
+                <div class="carousel-caption">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-lg-8 text-start">
+                                <h3 class="display-1 mb-4 animated slideInDown">Alpha Car Detail
+                                </h3>
+                                <h5>@lang('common.slider_text')</h5>
+                                <a href="#" class="btn btn-warning px-3 animated slideInDown text-uppercase">@lang('common.slider_button_text')</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="carousel-item">
-            <img src="img/aaa.jpg" class="d-block " alt="...">
-            <div class="overlay"></div>
-            <div class="carousel-caption caption-left-center">
-                <h1>Alpha Car Detail </h1>
-                <p>@lang('common.slider_text')</p>
-              <a href="#" class="btn btn-warning px-3">@lang('common.slider_button_text')</a>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <img src="img/aa.jpg" class="d-block " alt="...">
-            <div class="overlay"></div>
-            <div class="carousel-caption caption-left-center">
-                <h1>Alpha Car Detail </h1>
-                <p>@lang('common.slider_text')</p>
-              <a href="#" class="btn btn-warning px-3">@lang('common.slider_button_text')</a>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <img src="img/aaa.jpg" class="d-block " alt="...">
-            <div class="overlay"></div>
-            <div class="carousel-caption caption-left-center">
-                <h1>Alpha Car Detail </h1>
-                <p>@lang('common.slider_text')</p>
-              <a href="#" class="btn btn-warning px-3">@lang('common.slider_button_text')</a>
+            <div class="carousel-item">
+                <div class="overlay"></div>
+                <img class="w-100" src="img/alpha_car_detail_slider.jpg" alt="Alpha Car Detail slider photo">
+                <div class="carousel-caption">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-lg-8 text-start">
+                                <h3 class="display-1 mb-4 animated slideInDown">Alpha Car Detail
+                                </h3>
+                                <h5>@lang('common.slider_text')</h5>
+                                <a href="#" class="btn btn-warning px-3 animated slideInDown text-uppercase">@lang('common.slider_button_text')</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
 </div>
-</div>
-<hr>
-
