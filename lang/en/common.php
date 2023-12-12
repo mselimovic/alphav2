@@ -32,6 +32,14 @@ return [
     'ceramic_card_text' => "High-quality ceramic coating is a chemical polymer solution applied to the exterior of a vehicle to protect it from external paint damage. It is typically applied by hand, bonding with your car's paint and forming an additional hydrophobic protective layer.",
     'polish_card_heading' => 'Professional Polishing',
     'interior_card_heading' => 'Interior Cleaning',
+    'about_heading' => 'About Us',
+    'about_text' => 
+    "At Alpha Car Detail, we specialize in providing exceptional vehicle detailing services at our state-of-the-art location in Grafing, Germany. With refined skills and meticulous attention to detail, our experienced team delivers outstanding results, offering services such as meticulous interior and exterior cleaning, paint corrections, and protective coatings. Trust us for professional car detailing that enhances and protects your vehicle, ensuring it receives the care it deserves for years to come.",
+    'certified' => 'Certified',
+    'professional_staff' => 'Professional Staff',
+    'free_advices' => 'Free Advice',
+    'fair_prices' => 'Fair Prices',
+
 
     
 

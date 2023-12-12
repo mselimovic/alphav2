@@ -1,52 +1,15 @@
-
-.case-item {
+.about-img {
     position: relative;
     overflow: hidden;
-    height: 300px; 
 }
-.case-item img {
-    transition: .5s;
-}
-  
-.case-item:hover img {
-    transform: scale(1.2);
-}
-  
-.case-overlay {
+
+.about-img::after {
     position: absolute;
+    content: "";
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-end;
-    background: linear-gradient(rgba(20, 24, 62, 0), var(--dark));
-    z-index: 1;
-}
-
-.case-overlay h5 {
-    display: inline-block;
-    padding: 3px 15px;
-    color: #FFFFFF;
-    margin-bottom: 15px;
-}
-.case-overlay h5.first {
-    background: rgba(146, 5, 146, 0.7);
-}
-
-.case-overlay h5.second {
-    background:rgba(5, 146, 123, 0.7); 
-}
-
-.case-overlay h5.third {
-    background: rgba(146, 113, 5, 0.7); 
-}
-
-
-.case-overlay span.btn:hover {
-    color: var(--primary);
-    background: #FFFFFF;
-    border-color: #FFFFFF;
+    background: url(../img/bg-about-img.png) top left no-repeat;
+    background-size: contain;
 }

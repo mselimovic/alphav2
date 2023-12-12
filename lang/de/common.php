@@ -1,7 +1,6 @@
 <?php
 
 return [
-
     /*
     |--------------------------------------------------------------------------
     | Authentication Language Lines
@@ -30,5 +29,12 @@ return [
     'schedule' => 'Buchen',
     'ceramic_card_heading' => 'Keramikbeschichtung',
     'ceramic_card_text' => 'Hochwertige Keramikbeschichtung ist eine chemische Polymerlösung, die auf die Außenseite eines Fahrzeugs aufgetragen wird, um es vor äußeren Lackschäden zu schützen. Sie wird in der Regel von Hand aufgetragen, verbindet sich mit dem Lack Ihres Autos und bildet eine zusätzliche hydrophobe Schutzschicht.',
-
+    'polish_card_heading' => 'Professionelles Polieren',
+    'interior_card_heading' => 'Innenreinigung',
+    'about_heading' => 'Über uns',
+    'about_text' => 'Bei Alpha Car Detail haben wir uns auf die Bereitstellung außergewöhnlicher Fahrzeugpflegedienstleistungen an unserem hochmodernen Standort in Grafing, Deutschland, spezialisiert. Mit verfeinerten Fähigkeiten und akribischer Liebe zum Detail erzielt unser erfahrenes Team herausragende Ergebnisse und bietet Dienstleistungen wie sorgfältige Innen- und Außenreinigung, Lackkorrekturen und Schutzbeschichtungen an. Vertrauen Sie uns für professionelle Fahrzeugpflege, die Ihr Auto verschönert und schützt, und sichern Sie ihm die Pflege zu, die es über Jahre hinweg verdient.',
+    'certified' => 'Zertifiziert',
+    'professional_staff' => 'Professionelles Personal',
+    'free_advices' => 'Kostenlose Beratung',
+    'fair_prices' => 'Faire Preise',
 ];

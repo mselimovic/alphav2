@@ -31,6 +31,10 @@ return [
     'ceramic_card_text' => 'Kvalitetno keramičko premazivanje je hemijski polimerni rastvor koji se nanosi na vanjsku stranu vozila kako bi ga zaštitio od spoljnih oštećenja boje. Obično se nanosi ručno, spajajući se sa bojom vašeg automobila i formirajući dodatni hidrofobni zaštitni sloj.',
     'polish_card_heading' => 'Profesionalno poliranje',
     'interior_card_heading' => 'Čišćenje enterijera',
-
-    
+    'about_heading' => 'O nama',
+    'about_text' => 'U Alpha Car Detail specijalizirani smo za pružanje izuzetnih usluga detaljnog održavanja vozila na našoj najsavremenijoj lokaciji u Grafingu, Njemačka. Sa usavršenim vještinama i pažljivom pažnjom na detalje, naš iskusni tim postiže izvanredne rezultate, nudeći usluge kao što su pažljivo čišćenje interijera i eksterijera, korekcije boje i zaštitne premaze. Pouzdajte se u nas za profesionalno detaljno održavanje vozila koje poboljšava i štiti vaše vozilo, osiguravajući mu njegu koju zaslužuje kroz godine.',
+    'certified' => 'Certificirano',
+    'professional_staff' => 'Stručno Osoblje',
+    'free_advices' => 'Besplatni Savjeti',
+    'fair_prices' => 'Poštene Cijene',
 ];
