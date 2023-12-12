@@ -3,4 +3,5 @@
 @include('homepage.sections.hero')
 @include('homepage.sections.first-section')
 @include('homepage.sections.second-section')
+@include('homepage.sections.third-section')
 @endsection

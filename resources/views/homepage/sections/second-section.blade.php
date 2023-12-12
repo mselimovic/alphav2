@@ -1,11 +1,6 @@
-<div class="container-fluid bg-light py-2">
+<div class="container-fluid bg-alpha-primary py-2">
     <div class="row g-4">
-        <div class="col-lg-3 wow fadeIn">
-            <h1 class="text-uppercase pt-4">
-                @lang('common.pro_care')
-            </h1>
-            <a href="#" class="neon-btn text-uppercase">@lang('common.schedule')</a>
-        </div>
+ 
         <div class="col-lg-3 wow fadeIn" data-wow-delay="0.3s">
             <div class="case-item position-relative overflow-hidden rounded mb-2">
                 <img class="img-fluid" src="img/ceramic.png" alt="alpha ceramic coating">
@@ -32,6 +27,12 @@
                     </h5> --}}
                 </a>
             </div>
+        </div>
+        <div class="col-lg-3 wow fadeIn">
+            <h1 class="text-uppercase pt-4">
+                @lang('common.pro_care')
+            </h1>
+            <a class="btn btn-outline-light px-4 me-3" href="">@lang('common.schedule')</a>
         </div>
     </div>
 </div>
