@@ -30,4 +30,5 @@
 <link href="{{ asset('css/first_section.css') }}" rel="stylesheet">
 <link href="{{ asset('css/second_section.css') }}" rel="stylesheet">
 <link href="{{ asset('css/third_section.css') }}" rel="stylesheet">
+<link href="{{ asset('css/fourth_section.css') }}" rel="stylesheet">
 </body>

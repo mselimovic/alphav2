@@ -1,6 +1,6 @@
-<div class="container-fluid py-5 bg-white">
+<div class="container-fluid py-5 bg-white d-flex align-items-center" style="min-height: 100vh;">
   <div class="container">
-      <div class="row g-5 align-items-center">
+      <div class="row g-5 d-flex align-items-center">
           <div class="col-lg-6 ">
               <div class="about-img">
                   <img class="img-fluid" src="img/about-img.png">
