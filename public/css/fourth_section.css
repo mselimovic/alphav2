@@ -114,3 +114,9 @@ a.cta_btn:hover {
         font-size: 11px;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .custom-link {
+        display: none;
+    }
+}
