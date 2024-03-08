@@ -51,5 +51,3 @@
         </div>
     </div>
 </div>
-<a href="https://www.youtube.com/@alphacardetail/featured" target="_blank" class="custom-link">Watch on youtube <i
-        class="fab fa-youtube"></i></a>

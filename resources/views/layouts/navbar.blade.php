@@ -40,13 +40,13 @@
                         <a class="nav-link text-light" href="{{ route('homepage.index') }}">@lang('common.home')</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="{{ route('pages.services') }}">@lang('common.services')</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link text-light" href="{{ route('pages.about') }}">@lang('common.about')</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="{{ route('pages.services') }}">@lang('common.request')</a>
+                        <a class="nav-link text-light" href="{{ route('pages.services') }}">@lang('common.services')</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="{{ route('pages.request') }}">@lang('common.request')</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-light" href="{{ route('pages.projects') }}">@lang('common.gallery')</a>

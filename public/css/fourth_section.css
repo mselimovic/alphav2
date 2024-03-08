@@ -58,31 +58,6 @@ a.cta_btn {
 a.cta_btn:hover {
     background: #000;
 }
-.custom-link {
-    position: fixed;
-    background-color: #D12322;
-    padding: 23px 40px;
-    right: -99px;
-    border-radius: 5px;
-    top: 50%;
-    transform: translateY(-50%);
-    transform: rotate(-90deg);
-    font-size: 18px;
-    font-weight: 500;
-    color: #FFF;
-    text-decoration: none;
-    text-transform: capitalize;
-    transition: all .1s ease-in-out;
-}
-
-.custom-link i {
-    padding-left: 7px;
-}
-
-.custom-link:hover {
-    text-decoration: underline;
-    background-color: black;
-}
 @media only screen and (max-width: 1024px) {
     .grid {
         grid-template-columns: 1fr 1fr;
@@ -115,8 +90,3 @@ a.cta_btn:hover {
     }
 }
 
-@media only screen and (max-width: 768px) {
-    .custom-link {
-        display: none;
-    }
-}
