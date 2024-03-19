@@ -46,4 +46,13 @@ return [
     'cookies' => 'Kolačići',
     'impressum' => 'Impressum',
     'faqs' => 'ČPP',
+    'our_services_heading' => 'Naše izvrsne solucije za vaš automobil', 
+    'services_description' => 'Zahvaljujući našem dugogodišnjem iskustvu i predanosti savršenstvu, pružamo vrhunske usluge detaljnog čišćenja automobila. Od temeljnog čišćenja interijera do visokog sjaja poliranja, brižno se brinemo o vašem vozilu ostavljajući ga sjajnim i zaštićenim.',
+    'read_more' => 'Pročitajte više',
+    'wheels_heading' => 'Restauracija felgi',
+    'ceramic_description' => 'Keramičko premazivanje pruža dugotrajnu zaštitu i sjaj vašem vozilu.',
+    'polish_description' => 'Poliranje vraća sjaj i uklanja nedostatke sa laka vašeg automobila.',
+    'interior_description' => 'Temeljito čišćenje unutrašnjosti osigurava svježinu i njegovan izgled unutrašnjosti vozila.',
+    'wheels_description' => 'Restauracija felgi vraća sjaj vašim točkovima i poboljšava sigurnost vožnje.',
+   
 ];

@@ -46,4 +46,33 @@ return [
     'cookies' => 'Cookies',
     'impressum' => 'Impressum',
     'faqs' => 'FAQs',
+    'our_services_heading' => 'Unsere ausgezeichneten Lösungen für Ihr auto',
+    'services_description' => 'Dank unserer langjährigen Erfahrung und unserem Engagement für Perfektion bieten wir erstklassige Autopflegedienstleistungen an. Von gründlicher Innenreinigung bis zur Hochglanzpolitur, wir kümmern uns liebevoll um Ihr Fahrzeug und hinterlassen es strahlend und geschützt.',
+    'read_more' => 'Weiterlesen',
+    'wheels_heading' => 'Radrestauration',
+    'ceramic_description' => 'Keramikbeschichtung bietet einen langanhaltenden Schutz und Glanz für Ihr Fahrzeug.',
+    'polish_description' => 'Polieren bringt den Lack Ihres Autos zum Strahlen und entfernt Unvollkommenheiten.',
+    'interior_description' => 'Die gründliche Innenreinigung sorgt für ein frisches und gepflegtes Fahrzeuginnere.',
+    'wheels_description' => 'Die Radrestaurierung verleiht Ihren Rädern neuen Glanz und verbessert die Fahrsicherheit.',
+    'interior_program_1' => [
+        "Innenraum komplett absaugen mit Sitzplätzen rausnehmen",
+        "Scheiben Reinigung innen",
+        "Cockpit mit Mittelkonsole Pflege",
+        "Fußmatten waschen + Trocken",
+        "Kofferraum absaugen, Kofferraum Rahmen und Zwischenraum Reinigung",
+        "Einstiegleisten reinigen",
+        "Geruchneutralisierung",
+        "Dachpolster Reinigung",
+        "Motorwäsche"
+    ],
+    'interior_alpha_intensiv' => [
+        "Qualitäts Handwäsche mit tiefen Lackreinigung",
+        "3-4 Schicht Polieren",
+        "Anti-Hologramm Hochglanz Politur",
+        "Alle Lackkratzer entfernen",
+        "Lack Besichtigung",
+        "Felgen Aufbereitung",
+        "Kunststoffteile und Gummipflege",
+        "Sonax Wachs Versiegelung mit Dauer ca 1.5 Jahr"
+    ]
 ];

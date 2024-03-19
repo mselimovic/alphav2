@@ -53,12 +53,12 @@
     top: 0;
     left: 0;
     border-radius: 35px;
-    background: #F4F7FE;
+    background: #FFFFFF;
     transition: .5s;
     z-index: -1;
 }
 
 .service-item:hover a.btn::before {
     width: 100%;
-    background: #F4F7FE;
+    background: #FFFFFF;
 }

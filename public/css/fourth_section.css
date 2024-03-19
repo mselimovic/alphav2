@@ -15,7 +15,7 @@
 
 .card {
     padding: 20px !important;
-    background: rgba(255, 255, 255, 0.3) !important;
+    background: rgba(255, 255, 255, 0.3) ;
     border: 2px solid rgba(255, 255, 255, 0.2) !important;
     backdrop-filter: blur(15px) !important;
     border-radius: 25px;

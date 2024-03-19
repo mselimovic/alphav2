@@ -48,6 +48,14 @@ return [
     'cookies' => 'Cookies',
     'impressum' => 'Impressum',
     'faqs' => 'FAQs',
+    'our_services_heading' => 'Our excellent solutions for your car',
+    'services_description' => 'With our years of experience and commitment to perfection, we offer top-notch car detailing services. From thorough interior cleaning to high-gloss polishing, we lovingly care for your vehicle, leaving it sparkling and protected.',
+    'read_more' => 'Read more',
+    'wheels_heading' => 'Wheel restoration',
+    'ceramic_description' => 'Ceramic coating provides long-lasting protection and shine for your vehicle.',
+    'polish_description' => "'Polishing brings out the shine in your car's paintwork and removes imperfections.'",
+    'interior_description' => 'Deep interior cleaning ensures a fresh and well-maintained interior of your vehicle.',
+    'wheels_description' => 'Wheel restoration gives your wheels a new shine and enhances driving safety.',
 
 
     
