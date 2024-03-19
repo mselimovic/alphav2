@@ -18,6 +18,10 @@ class PagesController extends Controller
     {
         return view('pages.services');
     }
+    public function request()
+    {
+        return view('pages.request');
+    }
     public function projects()
     {
         return view('pages.projects');

@@ -1,34 +1,64 @@
-<div class="container-fluid bg-alpha-primary py-2">
-    <div class="row g-4">
-        <div class="col-lg-3 col-sm-6 wow fadeIn" data-wow-delay="0.3s">
-            <div class="case-item position-relative overflow-hidden rounded mb-2">
-                <img class="img-fluid" src="img/ceramic.png" alt="alpha ceramic coating">
-                <a class="case-overlay text-decoration-none" href="">
-                    <h5 class="first">@lang('common.ceramic_card_heading')</h5>
-                </a>
+<div id="#services" class="container-fluid py-5" style="background-color:#0092ca;;">
+    <div class="container py-5">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                <div class="btn btn-sm border rounded-1 text-white px-3 mb-3">{{__('common.our_services')}}</div>
+                <h1 class="mb-4">{{__('common.our_services_heading')}}</h1>
+                <h4 class="mb-4">{{__('common.services_description')}}</h4>
+                <a class="btn btn-outline-light rounded-1 px-4" href="">{{__('common.read_more')}}</a>
             </div>
-        </div>
-        <div class="col-lg-3 col-sm-6 wow fadeIn" data-wow-delay="0.5s">
-            <div class="case-item position-relative overflow-hidden rounded mb-2">
-                <img class="img-fluid" src="img/polish.jpg" alt="alpha polishing ">
-                <a class="case-overlay text-decoration-none" href="">
-                    <h5 class="second">@lang('common.polish_card_heading')</h5>
-                </a>
-            </div>
-        </div>
-        <div class="col-lg-3 col-sm-6 wow fadeIn" data-wow-delay="0.7s">
-            <div class="case-item position-relative overflow-hidden rounded mb-2">
-                <img class="img-fluid" src="img/inner.jpg" alt="alpha inner cleaning">
-                <a class="case-overlay text-decoration-none" href="">
-                    <h5 class="third">@lang('common.interior_card_heading')</h5>
-                </a>
-            </div>
-        </div>
-        <div class="col-lg-3 col-sm-6 wow fadeIn">
-            <h1 class="text-uppercase pt-4">
-                @lang('common.pro_care')
-            </h1>
-            <a class="btn btn-outline-light px-4 me-3" href="">@lang('common.schedule')</a>
+            <div class="col-lg-7">
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="row g-4">
+                            <div class="col-12 wow fadeIn" data-wow-delay="0.1s">
+                                <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                    <div class="service-icon btn-round d-flex justify-content-center align-items-center">
+                                        <i class="fa-solid fa-hand-sparkles fa-3x"></i>
+                                    </div>
+                                    <h5 class="mb-3">{{__('common.ceramic_card_heading')}}</h5>
+                                    <p>{{__('common.ceramic_description')}}</p>
+                                    <a class="btn px-3 mt-auto mx-auto" href="">{{__('common.read_more')}}</a>
+                                </div>
+                            </div>                         
+                            <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
+                                <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                    <div class="service-icon btn-round d-flex justify-content-center align-items-center">
+                                        <i class="fa-solid fa-car fa-3x"></i>
+                                    </div>
+                                    <h5 class="mb-3">{{__('common.polish_card_heading')}}</h5>
+                                    <p>{{__('common.polish_description')}}</p>
+                                    <a class="btn px-3 mt-auto mx-auto" href="">{{__('common.read_more')}}</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 pt-md-4">
+                        <div class="row g-4">
+                            <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
+                                <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                    <div class="service-icon btn-round d-flex justify-content-center align-items-center">
+                                        <i class="fa-solid fa-soap fa-3x"></i>
+                                    </div>
+                                    <h5 class="mb-3">{{__('common.interior_card_heading')}}</h5>
+                                    <p>{{__('common.interior_description')}}</p>
+                                    <a class="btn px-3 mt-auto mx-auto" href="">{{__('common.read_more')}}</a>
+                                </div>
+                            </div>
+                            <div class="col-12 wow fadeIn" data-wow-delay="0.7s">
+                                <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                    <div class="service-icon btn-round d-flex justify-content-center align-items-center">
+                                        <i class="fa-solid fa-drum-steelpan fa-3x"></i>
+                                    </div>
+                                    <h5 class="mb-3">{{__('common.wheels_heading')}}</h5>
+                                    <p>{{__('common.wheels_description')}}</p>
+                                    <a class="btn px-3 mt-auto mx-auto" href="">{{__('common.read_more')}}</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
         </div>
     </div>
 </div>

@@ -40,13 +40,13 @@
                         <a class="nav-link text-light" href="{{ route('homepage.index') }}">@lang('common.home')</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="{{ route('pages.services') }}">@lang('common.services')</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link text-light" href="{{ route('pages.about') }}">@lang('common.about')</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="{{ route('pages.services') }}">@lang('common.request')</a>
+                        <a class="nav-link text-light" href="{{ route('pages.services') }}">@lang('common.services')</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="{{ route('pages.request') }}">@lang('common.request')</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-light" href="{{ route('pages.projects') }}">@lang('common.gallery')</a>
@@ -56,25 +56,19 @@
                     </li>
                 </ul>
             </div>
-            {{-- <li class="">
-                        <div class="dropdown ms-2">
-                            <button type="button" class="btn btn-primary rounded-0 dropdown-toggle text-white"
-                                data-bs-toggle="dropdown"> @lang('common.language_' . app()->getLocale())</button>
-                            </button>
-                            <ul class="dropdown-menu rounded-0 bg-primary mx-2 ">
-                                <li><a class="dropdown-item text-white" href="{{ route('lang', ['locale' => 'ba']) }}">
-                                        @lang('common.language_ba')</a>
-                                </li>
-                                <li><a class="dropdown-item text-white"
-                                        href="{{ route('lang', ['locale' => 'en']) }}">@lang('common.language_en')</a>
-                                </li>
-                                <li><a class="dropdown-item text-white" href="{{ route('lang', ['locale' => 'de']) }}">
-                                        @lang('common.language_de')</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li> --}}
+            <div class="dropdown">
+                <button type="button" class="btn px-3 bg-warning" data-bs-toggle="dropdown">
+                    @lang('common.language_' . app()->getLocale())
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end bg-warning sub-shadow" style="min-width: 0;">
+                    <li><a class="dropdown-item text-dark" href="{{ route('lang', ['locale' => 'de']) }}">
+                            @lang('common.language_de')</a></li>
+                    <li><a class="dropdown-item text-dark" href="{{ route('lang', ['locale' => 'en']) }}">
+                            @lang('common.language_en')</a></li>
+                    <li><a class="dropdown-item text-dark" href="{{ route('lang', ['locale' => 'ba']) }}">
+                            @lang('common.language_ba')</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
 </div>
-

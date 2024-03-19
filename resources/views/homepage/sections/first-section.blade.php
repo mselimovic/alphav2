@@ -1,13 +1,13 @@
 <div class="container-fluid py-5 bg-white d-flex align-items-center" style="min-height: 100vh;">
   <div class="container">
       <div class="row g-5 d-flex align-items-center">
-          <div class="col-lg-6 ">
+          <div class="col-lg-6  wow fadeIn" data-wow-delay="0.3s">
               <div class="about-img">
                   <img class="img-fluid" src="img/about-img.png">
               </div>
           </div>
-          <div class="col-lg-6">
-              <h1 class="mb-4">@lang('common.about_heading')</h1>
+          <div class="col-lg-6  wow fadeIn" data-wow-delay="0.4s">
+              <h1 class="mb-4">{{ __('common.about_heading')}}</h1>
               <p class="mb-4" style="font-size: 1.2rem;">@lang('common.about_text')</p>
               <div class="row g-3">
                   <div class="col-sm-6">

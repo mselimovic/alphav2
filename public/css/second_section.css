@@ -1,52 +1,64 @@
-
-.case-item {
+.service-item {
     position: relative;
-    overflow: hidden;
-    height: 300px; 
-}
-.case-item img {
+    padding: 45px 30px;
+    background: #FFFFFF;
     transition: .5s;
 }
-  
-.case-item:hover img {
-    transform: scale(1.2);
+
+.service-item:hover {
+    background: #0092ca;
 }
-  
-.case-overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
+
+.service-item .service-icon {
+    margin: 0 auto 20px auto;
+    width: 90px;
+    height: 90px;
+    color: #0092ca;
+    background: #F4F7FE;
+    transition: .5s;
+    border-radius: 50%;
+}
+
+.service-item:hover .service-icon {
+    background: #FFFFFF;
+}
+
+.service-item h5,
+.service-item p {
+    transition: .5s;
+}
+
+.service-item:hover h5,
+.service-item:hover p {
+    color: #FFFFFF;
+}
+
+.service-item a.btn {
+    position: relative;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-end;
-    background: linear-gradient(rgba(20, 24, 62, 0), var(--dark));
+    color: #0092ca;
+    transition: .5s;
     z-index: 1;
 }
 
-.case-overlay h5 {
-    display: inline-block;
-    padding: 3px 15px;
-    color: #FFFFFF;
-    margin-bottom: 15px;
-}
-.case-overlay h5.first {
-    background: rgba(146, 5, 146, 0.7);
+.service-item:hover a.btn {
+    color: #0092ca;
 }
 
-.case-overlay h5.second {
-    background:rgba(5, 146, 123, 0.7); 
-}
-
-.case-overlay h5.third {
-    background: rgba(146, 113, 5, 0.7); 
-}
-
-
-.case-overlay span.btn:hover {
-    color: var(--primary);
+.service-item a.btn::before {
+    position: absolute;
+    content: "";
+    width: 35px;
+    height: 35px;
+    top: 0;
+    left: 0;
+    border-radius: 35px;
     background: #FFFFFF;
-    border-color: #FFFFFF;
+    transition: .5s;
+    z-index: -1;
+}
+
+.service-item:hover a.btn::before {
+    width: 100%;
+    background: #FFFFFF;
 }
