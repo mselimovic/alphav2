@@ -56,8 +56,12 @@ return [
     'polish_description' => "'Polishing brings out the shine in your car's paintwork and removes imperfections.'",
     'interior_description' => 'Deep interior cleaning ensures a fresh and well-maintained interior of your vehicle.',
     'wheels_description' => 'Wheel restoration gives your wheels a new shine and enhances driving safety.',
-
-
+    'erhan' => 'This highly qualified man not only works professionally but with passion and with a special eye for detail. Price-performance ratio is consistent. I can recommend him to anyone. I drove the car to him on Saturday and got it back on Sunday as "new."',
+    'robert' => 'Clear recommendation 👍 would say 5 stars. Perfect preparation and brought the paint back to a new car condition.', 
+    'jahic' => "Highly recommended! The man knows what he's doing. He brought my car to a new car condition. He got the most out of the paint. What I also liked was the way he dealt with the customer. Price/performance is simply very good.",
+    'boris' => 'I brought the car for preparation, everything was super, great advice, everything top, highly recommended.',
+    'christiane' => 'Very neat, punctual, and reliable - will gladly back again. Clear recommendation 👍',
+    'sema' => 'Only recommendations. I am very satisfied with the car polish and interior cleaning. The car looks completely different, both outside and inside, like new.',
     
 
 

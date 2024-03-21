@@ -54,6 +54,21 @@ return [
     'polish_description' => 'Polieren bringt den Lack Ihres Autos zum Strahlen und entfernt Unvollkommenheiten.',
     'interior_description' => 'Die gründliche Innenreinigung sorgt für ein frisches und gepflegtes Fahrzeuginnere.',
     'wheels_description' => 'Die Radrestaurierung verleiht Ihren Rädern neuen Glanz und verbessert die Fahrsicherheit.',
+    'erhan' => 'Dieser hoch qualifizierter Mann arbeitet nicht nur professionell sondern mit
+    Leidenschaft und mit dem besonderen blick für Details. Preis Leistungen stimmen überein. Ich
+    kann es jedem empfehlen. Ich habe das Auto am Samstag zu ihm gefahren und Sonntag als
+    "Neuwagen" zurück bekommen.',
+    'robert' => 'Klare Empfehlung 👍 würde sagen 5 Sterne. Perfekte Aufbereitung und den Lack
+    wieder auf Neuwagenzustand gebracht.',
+    'jahic' => 'Kann ich herzlich empfehlen !
+    Der Mann weiß was er da macht . Hat mein Auto in einen Neuwagen-Zustand gebracht. Am meisten
+    hat er bei dem Lack rausgeholt.
+    Na ja polieren können viele , was mir aber auch gefallen hat ist der Umgang mit dem Kunden.
+    Preis/Leistung ist einfach sehr gut .
+    Ist empfehlenswert.',
+    'boris' => 'Habe von frau auto gebracht zum Aufbereitung alles mega super Beratung alles Top  zum empfehlen .',
+    'christiane' => 'Sehr ordentlich, pünktlich und zuverlässig - gerne wieder. Klare Empfehlung 👍',
+    'sema' => 'Nur Empfehlungen.  Ich bin mit der Autopolitur und der Innenreinigung sehr zufrieden.  Das Auto sieht sowohl außen als auch innen völlig anders aus wie neu.',
     'interior_program_1' => [
         "Innenraum komplett absaugen mit Sitzplätzen rausnehmen",
         "Scheiben Reinigung innen",

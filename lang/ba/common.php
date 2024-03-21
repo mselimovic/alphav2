@@ -54,5 +54,10 @@ return [
     'polish_description' => 'Poliranje vraća sjaj i uklanja nedostatke sa laka vašeg automobila.',
     'interior_description' => 'Temeljito čišćenje unutrašnjosti osigurava svježinu i njegovan izgled unutrašnjosti vozila.',
     'wheels_description' => 'Restauracija felgi vraća sjaj vašim točkovima i poboljšava sigurnost vožnje.',
-   
+    'erhan' => 'Ovaj visoko kvalificirani čovjek ne samo da radi profesionalno nego s strašću i s posebnim okom za detalje. Omjer cijene i kvalitete je izvanredan. Preporučujem ga svima. Auto sam mu odvezao u subotu, a u nedjelju sam ga dobio natrag kao "nov".',
+    'robert' => 'Jasna preporuka 👍 rekao bih 5 zvjezdica. Savršena priprema, vratio je boju u stanje novog automobila.',
+    'jahic' => 'Toplo preporučujem! Čovjek zna što radi. Moj je auto doveo u stanje novog automobila. Izvukao je najviše iz boje. Ono što mi se također svidjelo bio je način na koji se odnosio prema klijentu. Omjer cijene i kvalitete jednostavno je vrlo dobar. ',
+    'boris' => 'Dovezao sam auto na poliranje, sve je bilo super, odlični savjeti, sve vrhunski, toplo preporučujem.',
+    'christiane' => 'Vrlo uredno, točno i pouzdano. Jasna preporuka 👍',
+    'sema' => 'Samo preporuke. Vrlo sam zadovoljan poliranjem automobila i čišćenjem interijera. Automobil izgleda potpuno drugačije, i izvana i iznutra, kao nov.',
 ];
