@@ -1,5 +1,38 @@
 @extends('layouts.guest')
+<header class="mt-5 bg-about">
+    <div class="p-5 text-center bg-body-tertiary">
+      <h1 class="pt-5 text-uppercase alpha-secondary">{{__('common.about')}}</h1>
+    </div>
+</header>
 @section('content')
-<div class="container-fluid bg-white" style="margin-top:84px;">
-<div class="container"><h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, dolorem ratione qui fugiat hic nihil ex error. Cum, natus delectus molestias, quae odit harum nisi, libero a non officia vitae. Suscipit animi, ullam aperiam non alias impedit molestias. Repellendus aut, aliquam totam dolor mollitia provident labore veniam dolore consequuntur eveniet corporis dolores officia perferendis, minus sequi iure expedita porro. Quia consequatur dolor voluptate veritatis optio eos repellendus quasi, earum itaque labore voluptatibus cupiditate corporis officia commodi, sunt perferendis eligendi doloremque ex, maiores explicabo! Error, sapiente sed ut rerum consectetur nam quod officiis quasi in adipisci reprehenderit, vero eum aut animi labore dolores doloremque tempora accusamus sit incidunt ipsam quaerat laboriosam hic voluptatibus! Atque adipisci et eaque cum eos nihil sint. Animi blanditiis deleniti perferendis corrupti? Quia dolorem ex illum odit corporis ducimus expedita, repellat necessitatibus enim, impedit quam, iste voluptas. Sint doloremque sunt, quam ut quos reiciendis recusandae consequatur eligendi et! Excepturi beatae enim at quae quam ea natus, dolore ex ad sapiente voluptate laudantium similique quod adipisci facere non alias sint repudiandae rem officiis omnis aperiam impedit? Inventore, illo commodi et molestiae cupiditate animi? Dolores, amet! Neque, nostrum. Sit tempore odio natus dolor laudantium architecto, tenetur debitis minima id dolores, reprehenderit expedita provident? Quasi, qui dolorem. Ex ab voluptas quos sequi qui dicta mollitia, quas quaerat asperiores at vel voluptate veniam aperiam iusto consequatur accusantium molestias, eaque quisquam rerum. Aliquid labore numquam eum incidunt laboriosam quae consectetur ea dolorem sequi veritatis deleniti accusantium facere, distinctio, nulla nemo magnam eveniet a et debitis quam esse aut voluptatem, optio similique! Numquam laboriosam architecto voluptates provident quos, voluptatum corrupti deleniti. A sequi rem delectus et iusto dolorum tempora in hic quam est expedita iure ipsa, voluptatibus explicabo inventore itaque blanditiis tenetur amet alias aspernatur nostrum saepe? Nemo impedit nisi in fuga asperiores delectus. Aspernatur ut laudantium minus saepe aliquid nihil non consectetur, vero, recusandae neque expedita voluptate quaerat inventore quibusdam consequuntur. Laborum consequuntur accusantium quis magni, veniam, iste ad voluptatibus qui aliquam delectus fugit vitae repellendus maxime natus ullam atque aliquid suscipit debitis rerum nihil cum. Quidem quod, vel doloremque corrupti cupiditate, adipisci fuga eligendi dolor inventore iusto laborum ut maxime obcaecati reprehenderit placeat reiciendis. Impedit blanditiis quos similique ea autem odit consequatur accusantium quidem distinctio iste omnis velit debitis, error voluptatem illo ab libero ipsa porro. Eveniet, soluta minus laboriosam quisquam quas nulla odio quae fuga natus consequatur quibusdam voluptate eos.</h1></div></div>
+    <div class="container-fluid bg-white">
+        <div class="container">
+            <div class="row justify-content-evenly align-items-center py-3">
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="img-border">
+                        <img class="img-fluid inner-img" src="{{ asset('img/about/alpha_owner.webp') }}"
+                            alt="Alpha Car Detail About Owner">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <h4>{{__('common.our_story')}}</h4>
+                    <p>{{__('common.our_story_text_1')}}</p>
+                    <p>{{__('common.our_story_text_2')}}</p>
+                </div>
+            </div>
+            <div class="row justify-content-evenly align-items-center py-3">
+                <div class="col-lg-5 col-sm-6 order-lg-2">
+                    <div class="img-border-right">
+                        <img class="img-fluid inner-img" src="{{ asset('img/about/alpha_about_car.webp') }}"
+                            alt="Alpha Car Detail about section">
+                    </div>
+                </div>
+                <div class="col-lg-5 col-sm-6 order-lg-1">
+                    <h4>{{__('common.our_mission')}}</h4>
+                    <p>{{__('common.our_mission_text_1')}}</p>
+                    <p>{{__('common.our_mission_text_2')}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
 @endsection

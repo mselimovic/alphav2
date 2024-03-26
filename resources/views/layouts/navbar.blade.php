@@ -28,7 +28,7 @@
     </div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-alpha-dark" id="mainNav">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="img/logo-alpha-04.png" height="50px" alt="..." /></a>
+            <a class="navbar-brand" href="{{ route('homepage.index') }}"><img src="img/logo-alpha-04.png" height="50px" alt="Alpha" /></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
@@ -37,36 +37,36 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ms-auto py-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="{{ route('homepage.index') }}">@lang('common.home')</a>
+                        <a class="nav-link text-light" href="{{ route('homepage.index') }}">{{__('common.home')}}</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="{{ route('pages.about') }}">@lang('common.about')</a>
+                        <a class="nav-link text-light" href="{{ route('pages.about') }}">{{__('common.about')}}</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="{{ route('pages.services') }}">@lang('common.services')</a>
+                        <a class="nav-link text-light" href="{{ route('pages.services') }}">{{__('common.services')}}</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="{{ route('pages.request') }}">@lang('common.request')</a>
+                        <a class="nav-link text-light" href="{{ route('pages.request') }}">{{__('common.request')}}</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="{{ route('pages.projects') }}">@lang('common.gallery')</a>
+                        <a class="nav-link text-light" href="{{ route('pages.projects') }}">{{__('common.gallery')}}</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="{{ route('pages.contact') }}">@lang('common.contact')</a>
+                        <a class="nav-link text-light" href="{{ route('pages.contact') }}">{{__('common.contact')}}</a>
                     </li>
                 </ul>
             </div>
             <div class="dropdown">
                 <button type="button" class="btn px-3 bg-warning" data-bs-toggle="dropdown">
-                    @lang('common.language_' . app()->getLocale())
+                    {{__('common.language_' . app()->getLocale())}}
                 </button>
                 <ul class="dropdown-menu dropdown-menu-end bg-warning sub-shadow" style="min-width: 0;">
                     <li><a class="dropdown-item text-dark" href="{{ route('lang', ['locale' => 'de']) }}">
-                            @lang('common.language_de')</a></li>
+                           {{__('common.language_de')}}</a></li>
                     <li><a class="dropdown-item text-dark" href="{{ route('lang', ['locale' => 'en']) }}">
-                            @lang('common.language_en')</a></li>
+                           {{__('common.language_en')}}</a></li>
                     <li><a class="dropdown-item text-dark" href="{{ route('lang', ['locale' => 'ba']) }}">
-                            @lang('common.language_ba')</a></li>
+                           {{__('common.language_ba')}}</a></li>
                 </ul>
             </div>
         </div>

@@ -60,4 +60,68 @@ return [
     'boris' => 'Dovezao sam auto na poliranje, sve je bilo super, odlični savjeti, sve vrhunski, toplo preporučujem.',
     'christiane' => 'Vrlo uredno, točno i pouzdano. Jasna preporuka 👍',
     'sema' => 'Samo preporuke. Vrlo sam zadovoljan poliranjem automobila i čišćenjem interijera. Automobil izgleda potpuno drugačije, i izvana i iznutra, kao nov.',
+    'interior_program_1' => [
+        "Usisavanje unutrašnjosti",
+        "Čišćenje presvlaka od tkanine",
+        "Čišćenje kožnih sjedišta s njegom kože",
+        "Neutralizacija mirisa",
+        "Sva presvlaka, tepisi ili obloge",
+        "Čišćenje unutrašnjih stakala",
+    ],
+    'interior_alpha_intensiv' => [
+        "Potpuno usisavanje unutrašnjosti sa izvađenim sjedištima",
+        "Čišćenje unutrašnjih stakala",
+        "Njega kokpita i središnje konzole",
+        "Pranje i sušenje podnih prostirki",
+        "Usisavanje prtljažnika, čišćenje okvira prtljažnika i razmaka",
+        "Čišćenje pragova vrata",
+        "Neutralizacija mirisa",
+        "Čišćenje unutrašnjeg krova",
+        "Pranje motora"
+    ],
+    'polish_program_1' => [
+        "Kvalitetno ručno pranje sa dubinskim čišćenjem laka",
+        "Poliranje u 1 sloju",
+        "Njega plastičnih dijelova i guma",
+        "Obnova felgi",
+        "Obnova felgi Sonax voskom s trajanjem od približno 8 mjeseci",
+    ],
+    'polish_program_2' => [
+        "Kvalitetno ručno pranje sa dubinskim čišćenjem laka",
+        "Poliranje u 2 sloja",
+        "Anti-hologramski visokosjajni polish",
+        "Njega plastičnih dijelova i guma",
+        "Obnova felgi",
+        "Sonax vosak s trajanjem od približno 1 godine.",
+    ],
+    'polish_program_alpha' => [
+        "Kvalitetno ručno pranje sa dubinskim čišćenjem laka",
+        "Poliranje u 3-4 sloja",
+        "Anti-hologramski visokosjajni polish",
+        "Uklanjanje svih ogrebotina na laku",
+        "Pregled laka",
+        "Obnova felgi",
+        "Njega plastičnih dijelova i guma",
+        "Sonax vosak s trajanjem od približno 1.5 godine",
+    ],
+    'ceramic_program_1' => [
+        "Kombinuje se sa Programom 1 ili Programom 2 poliranja",
+        "Keramičko zatvaranje sa trajanjem od približno 1.5 godina",
+    ],
+    'ceramic_program_2' => [
+        "Kombinuje se sa Programom 1 ili Programom 2 poliranja",
+        "Keramičko zatvaranje sa trajanjem od približno 2.5 godine",
+    ],
+    'ceramic_program_alpha' => [
+        "Kombinuje se sa Programom 1 ili Programom 2 poliranja",
+        "Keramičko zatvaranje sa trajanjem od približno 5 godina",
+    ],
+    'our_mission' => 'Naša Misija',
+    'our_story' => 'Naša Priča',
+
+    'our_story_text_1' => "U Alpha Car Detail-u naglašavamo važnost pružanja izuzetnih usluga detaljnog čišćenja vozila koje prevazilaze vaša očekivanja. Sa godinama iskustva u industriji, usavršili smo svoje vještine i tehnike kako bismo postigli izvanredne rezultate za naše klijente.",
+    'our_story_text_2' => 'Naša lokacija na adresi Kastanienring 2, Grafing 85293 Reichertshausen, Njemačka, opremljena je najsavremenijim alatima i opremom, omogućavajući nam da pružimo sveobuhvatne usluge detaljnog čišćenja vozila prilagođene individualnim potrebama svakog vozila. Naš tim iskusnih tehničara specijaliziran je za pružanje najviše razine zanatskog umijeća i pažnje prema detaljima. Shvatamo da je vaše vozilo vrijedna investicija i tretiramo ga s najvećom pažnjom i poštovanjem.',
+    'our_mission_text_1' => 'U Alpha Car Detail-u težimo izvrsnosti kako bismo postigli najbolje moguće rezultate za vaše vozilo. Koristimo samo najbolje proizvode, uključujući naše Sonax-certificirane proizvode, i primjenjujemo naše znanje kako bismo pružili detaljno unutarnje i vanjsko čišćenje, ispravke boje, zaštitne premaze i usluge restauracije. Težnja ka izvrsnosti nam je donijela vjernu klijentelu koja nam povjerava svoja vrijedna vozila.',
+    'our_mission_text_2' => 'Ponosni smo što gradimo dugoročne odnose s našim klijentima i ciljamo da prevaziđemo njihova očekivanja sa svakom uslugom. Naše profesionalne usluge detaljnog čišćenja usmjerene su na zadovoljenje vaših specifičnih zahtjeva i poboljšanje i zaštitu vašeg vozila tokom godina. Posjetite nas u Alpha Car Detail-u i iskusite razliku u njezi automobila.',
+    
 ];

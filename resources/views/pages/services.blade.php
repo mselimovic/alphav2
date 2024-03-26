@@ -1,11 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  services
-</body>
-</html>
+@extends('layouts.guest')
+<header class="mt-5 bg-services">
+    <div class="p-5 text-center bg-body-tertiary">
+      <h1 class="pt-5 text-uppercase alpha-secondary">{{__('common.services')}}</h1>
+    </div>
+</header>
+@section('content')
+
+@endsection

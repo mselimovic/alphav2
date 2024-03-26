@@ -24,6 +24,34 @@
     object-fit: cover;
     border-radius: 6px;
 }
+.img-border-right {
+    position: relative;
+    height: 100%;
+    /* min-width: 400px; */
+    min-height: 400px;
+}
+
+.img-border-right::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 3rem;
+    right: 0;
+    bottom: 3rem;
+    border: 5px solid #0092ca;
+    border-radius: 6px;
+}
+
+.img-border-right img {
+    position: absolute;
+    top: 3rem;
+    left: 0;
+    width: calc(100% - 3rem);
+    height: calc(100% - 3rem);
+    object-fit: cover;
+    border-radius: 6px;
+}
+
 
 
 .testimonial-carousel {
@@ -89,4 +117,5 @@
     .owl-prev, .owl-next {
   display: none !important;
     }
+    
 }
