@@ -56,9 +56,78 @@ return [
     'polish_description' => "'Polishing brings out the shine in your car's paintwork and removes imperfections.'",
     'interior_description' => 'Deep interior cleaning ensures a fresh and well-maintained interior of your vehicle.',
     'wheels_description' => 'Wheel restoration gives your wheels a new shine and enhances driving safety.',
-
-
+    'erhan' => 'This highly qualified man not only works professionally but with passion and with a special eye for detail. Price-performance ratio is consistent. I can recommend him to anyone. I drove the car to him on Saturday and got it back on Sunday as "new."',
+    'robert' => 'Clear recommendation 👍 would say 5 stars. Perfect preparation and brought the paint back to a new car condition.', 
+    'jahic' => "Highly recommended! The man knows what he's doing. He brought my car to a new car condition. He got the most out of the paint. What I also liked was the way he dealt with the customer. Price/performance is simply very good.",
+    'boris' => 'I brought the car for preparation, everything was super, great advice, everything top, highly recommended.',
+    'christiane' => 'Very neat, punctual, and reliable - will gladly back again. Clear recommendation 👍',
+    'sema' => 'Only recommendations. I am very satisfied with the car polish and interior cleaning. The car looks completely different, both outside and inside, like new.',
+    'interior_program_1' => [
+        "Interior vacuuming",
+        "Upholstery cleaning for fabric seats",
+        "Cleaning leather seats with leather care",
+        "Odor neutralization",
+        "All upholstery, carpets, or trims",
+        "Interior window cleaning",
+    ],
+    'interior_alpha_intensiv' => [
+        "Complete interior vacuuming with seats removed",
+        "Interior window cleaning",
+        "Cockpit and center console care",
+        "Washing and drying floor mats",
+        "Vacuuming trunk, cleaning trunk frame and gaps",
+        "Cleaning door sills",
+        "Odor neutralization",
+        "Headliner cleaning",
+        "Engine wash"
+    ],
+    'polish_program_1' => [
+        "Quality hand wash with deep paint cleaning",
+        "1-layer polishing",
+        "Plastic parts and rubber care",
+        "Wheel refurbishment",
+        "Wheel refurbishment Sonax wax sealing with a duration of approximately 8 months",
+    ],
+    'polish_program_2' => [
+        "Quality hand wash with deep paint cleaning",
+        "2-layer polishing",
+        "Anti-hologram high-gloss polish",
+        "Plastic parts and rubber care",
+        "Wheel refurbishment",
+        "Sonax wax sealing with a duration of approximately 1 year.",
+    ],
+    'polish_program_alpha' => [
+        "Quality hand wash with deep paint cleaning",
+        "3-4 layer polishing",
+        "Anti-hologram high-gloss polish",
+        "Removing all paint scratches",
+        "Paint inspection",
+        "Wheel refurbishment",
+        "Plastic parts and rubber care",
+        "Sonax wax sealing with a duration of approximately 1.5 years",
+    ],
+    'ceramic_program_1' => [
+        "Combines with Program 1 or Program 2 polishing",
+        "Ceramic sealing with a duration of approximately 1.5 years",
+    ],
+    'ceramic_program_2' => [
+        "Combines with Program 1 or Program 2 polishing",
+        "Ceramic sealing with a duration of approximately 2.5 years",
+    ],
+    'ceramic_program_alpha' => [
+        "Combines with Program 1 or Program 2 polishing",
+        "Ceramic sealing with a duration of approximately 5 years",
+    ],
+    'our_mission' => 'Our Mission',
+    'our_story' => 'Our Story',
     
-
+    'our_story_text_1' => "At Alpha Car Detail, we prioritize offering exceptional vehicle detailing services that surpass your expectations. With years of experience in the industry, we've honed our skills and perfected our techniques to achieve outstanding results for our customers.",
+    'our_story_text_2' => 'Our location at Kastanienring 2, Grafing 85293 Reichertshausen, Germany, is equipped with state-of-the-art tools and equipment, allowing us to provide comprehensive car detailing services tailored to the individual needs of each vehicle. Our team of experienced technicians specializes in delivering the highest craftsmanship and attention to detail. We understand that your car is a valuable investment and treat it with the utmost care and respect.',
+    'our_mission_text_1' => 'At Alpha Car Detail, we strive for excellence to achieve the best possible results for your vehicle. We only use the best products, including our Sonax-certified solutions, and apply our expertise to provide meticulous interior and exterior cleaning, paint corrections, protective coatings, and restoration services. Striving for excellence has earned us a loyal clientele who entrust us with their valuable vehicles.',
+    'our_mission_text_2' => 'We take pride in building long-term relationships with our customers and aim to exceed their expectations with every service. Our professional detailing services are designed to meet your specific requirements and enhance and protect your vehicle for years to come.',
+    
+    'projects' => 'Projects',
+    'clients' => 'Clients',
+    'years'=> 'Years Exp.',
 
 ];

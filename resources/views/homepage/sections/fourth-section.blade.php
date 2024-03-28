@@ -4,8 +4,8 @@
             <div class="card" id="interior_card">
                 <h4 class="card_title">@lang('common.interior_card_heading')</h4>
                 <div class="d-flex gap-2 justify-content-start">
-                    <button id="interior_program_1" type="button" class="btn btn-warning rounded-1 active" style="min-width: 100px;">Program 1</button>
-                    <button id="interior_alpha_intensiv" type="button" class="btn btn-info rounded-1 "style="min-width: 100px;">Alpha Intensiv</button>
+                    <button id="interior_program_1" type="button" class="btn btn-warning rounded-1 active" style="min-width: 80px;">Program 1</button>
+                    <button id="interior_alpha_intensiv" type="button" class="btn btn-info rounded-1 "style="min-width: 80px;">Alpha Intensiv</button>
                 </div>
                 <p id="interior_price" class="pricing"></p>
                 <p id="interior_name" class="text-black"></p>
@@ -13,85 +13,107 @@
                 <ul id="interior_ul" class="features text-black">
        
                 </ul>
-                <a href="#" class="cta_btn mt-auto">Read More</a>
+                <a href="#" class="cta_btn mt-auto">{{__('common.read_more')}}</a>
             </div>
-            <div class="card">
+            <div class="card" id="polish_card">
                 <h4 class="card_title">@lang('common.polish_card_heading')</h4>
                 <div class="d-flex gap-2 justify-content-start">
-                    <button id="polish_program_1" type="button" class="btn btn-secondary rounded-1" style="min-width: 100px;">Program 1</button>
-                    <button id="polish_program_2" type="button" class="btn btn-warning rounded-1" style="min-width: 100px;">Program 2</button>
-                    <button id="polish_program_alpha" type="button" class="btn btn-info rounded-1"style="min-width: 100px;">Alpha Program</button>
+                    <button id="polish_program_1" type="button" class="btn btn-secondary rounded-1" style="min-width: 80px;">Program 1</button>
+                    <button id="polish_program_2" type="button" class="btn btn-warning rounded-1" style="min-width: 80px;">Program 2</button>
+                    <button id="polish_program_alpha" type="button" class="btn btn-info rounded-1"style="min-width: 80px;">Alpha Program</button>
                 </div>
-                <p class="pricing">545€</p>
-                <p class="text-black">Alpha Program</p>
+                <p id="polish_price" class="pricing"></p>
+                <p id="polish_name" class="text-black"></p>
                 <hr>
-                <ul class="features text-black">
-                    <li>Qualitäts Handwäsche mit tiefen Lackreinigung</li>
-                    <li>3-4 Schicht Polieren</li>
-                    <li>Anti-Hologramm Hochglanz Politur</li>
-                    <li>Alle Lackkratzer entfernen</li>
-                    <li>Lack Besichtigung</li>
-                    <li>Felgen Aufbereitung</li>
-                    <li>Kunststoffteile und Gummipflege</li>
-                    <li>Sonax Wachs Versiegelung mit Dauer ca 1.5 Jahr</li>
+                <ul id="polish_ul" class="features text-black">
                 </ul>
-                <a href="#" class="cta_btn mt-auto">Read More</a>
+                <a href="#" class="cta_btn mt-auto">{{__('common.read_more')}}</a>
             </div>
-            <div class="card">
+            <div class="card" id="ceramic_card">
                 <h4 class="card_title">@lang('common.ceramic_card_heading')</h4>
                 <div class="d-flex gap-2 justify-content-start">
-                    <button id="ceramic_program_1" type="button" class="btn btn-secondary rounded-1" style="min-width: 100px;">Program 1</button>
-                    <button id="ceramic_program_2" type="button" class="btn btn-warning rounded-1" style="min-width: 100px;">Program 2</button>
-                    <button id="ceramic_program_alpha" type="button" class="btn btn-info rounded-1"style="min-width: 100px;">Alpha Keramik</button>
+                    <button id="ceramic_program_1" type="button" class="btn btn-secondary rounded-1" style="min-width: 80px;">Program 1</button>
+                    <button id="ceramic_program_2" type="button" class="btn btn-warning rounded-1" style="min-width: 80px;">Program 2</button>
+                    <button id="ceramic_program_alpha" type="button" class="btn btn-info rounded-1"style="min-width: 80px;">Alpha Keramik</button>
                 </div>
-                <p class="pricing">700€</p>
-                <p class="text-black">Alpha Keramike</p>
+                <p id="ceramic_price" class="pricing"></p>
+                <p id="ceramic_name" class="text-black"></p>
                 <hr>
-                <ul class="features text-black">
-                    <li>Kombinierbar mit Program 1 oder 2 Polieren</li>
-                    <li>Keramik Versiegelung mit Dauer ca 5 Jahre</li>
+                <ul id="ceramic_ul" class="features text-black">
+
                 </ul>
-                <a href="#" class="cta_btn mt-auto">Read More</a>
+                <a href="#" class="cta_btn mt-auto">{{__('common.read_more')}}</a>
             </div>
 
         </div>
     </div>
 </div>
-
 <script>
-    var programText = @json(__('common'));
-    function updateFeatures(programId) {
-        var featuresList = document.getElementById("interior_ul");
+    var cardText = {
+        'polish_card': @json(__('common')),
+        'interior_card': @json(__('common')),
+        'ceramic_card': @json(__('common')),
+        
+    };
+
+    function updateCardFeatures(cardId, programId) {
+        var featuresList = document.getElementById(cardId).querySelector('ul.features');
         featuresList.innerHTML = "";
-        var programFeatures = programText[programId];
+        var programFeatures = cardText[cardId][programId];
         programFeatures.forEach(function(feature) {
             var listItem = document.createElement("li");
             listItem.textContent = feature;
             featuresList.appendChild(listItem);
         });
 
-        var card = document.getElementById("interior_card");
-        if (programId === "interior_program_1") {
-            document.getElementById("interior_price").textContent = "190€"; 
-            document.getElementById("interior_name").textContent = "Program 1";
-            card.style.backgroundColor = "rgba(204, 160, 0, 0.2)"; 
-        } else if (programId === "interior_alpha_intensiv") {
-            document.getElementById("interior_price").textContent = "235€"; 
-            document.getElementById("interior_name").textContent = "Program Alpha Intensiv"; 
-            card.style.backgroundColor = "rgba(0, 146, 202, 0.2)"; 
+        var card = document.getElementById(cardId);
+        switch (programId) {
+            case "ceramic_program_1":
+                updateCardInfo(card, "245€", "Program 1", "rgba(51, 51, 51, 0.2)");
+                break;
+            case "ceramic_program_2":
+                updateCardInfo(card, "345€", "Program 2", "rgba(204, 160, 0, 0.2)");
+                break;
+            case "ceramic_program_alpha":
+                updateCardInfo(card, "700€", "Alpha Program", "rgba(0, 146, 202, 0.2)");
+                break;
+            case "polish_program_1":
+                updateCardInfo(card, "275€", "Program 1", "rgba(51, 51, 51, 0.2)");
+                break;
+            case "polish_program_2":
+                updateCardInfo(card, "375€", "Program 2", "rgba(204, 160, 0, 0.2)");
+                break;
+            case "polish_program_alpha":
+                updateCardInfo(card, "545€", "Alpha Program", "rgba(0, 146, 202, 0.2)");
+                break;
+            case "interior_program_1":
+                updateCardInfo(card, "190€", "Program 1", "rgba(204, 160, 0, 0.2)");
+                break;
+            case "interior_alpha_intensiv":
+                updateCardInfo(card, "235€", "Program Alpha Intensiv", "rgba(0, 146, 202, 0.2)");
+                break;
+            default:
+                break;
         }
     }
-    document.getElementById("interior_program_1").addEventListener("click", function() {
-        updateFeatures("interior_program_1");
-    });
 
-    document.getElementById("interior_alpha_intensiv").addEventListener("click", function() {
-        updateFeatures("interior_alpha_intensiv");
+    function updateCardInfo(card, price, name, backgroundColor) {
+        card.querySelector('.pricing').textContent = price;
+        card.querySelector('.text-black').textContent = name;
+        card.style.backgroundColor = backgroundColor;
+    }
+
+    document.querySelectorAll('.card button').forEach(function(button) {
+        button.addEventListener('click', function() {
+            var cardId = this.closest('.card').id;
+            var programId = this.id;
+            updateCardFeatures(cardId, programId);
+        });
     });
 
     window.onload = function() {
-        updateFeatures("interior_alpha_intensiv");
+        updateCardFeatures('ceramic_card', 'ceramic_program_alpha');
+        updateCardFeatures('polish_card', 'polish_program_alpha');
+        updateCardFeatures('interior_card', 'interior_alpha_intensiv');
     }
-
 </script>
-

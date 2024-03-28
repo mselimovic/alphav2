@@ -132,6 +132,7 @@ hr {
   background-size: contain;
 }
 
+
 .footer .btn.btn-social {
   margin-right: 5px;
   width: 40px;
@@ -200,4 +201,13 @@ hr {
   margin-right: 0;
   padding-right: 0;
   border-right: none;
+}
+
+.bg-about {
+  background: url(../img/about/about_header.webp);
+  background-size: cover;
+}
+.bg-services {
+  background: url(../img/services/services_header.webp);
+  background-size: cover;
 }
