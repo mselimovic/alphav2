@@ -46,7 +46,7 @@ return [
     'cookies' => 'Kolačići',
     'impressum' => 'Impressum',
     'faqs' => 'ČPP',
-    'our_services_heading' => 'Naše izvrsne solucije za vaš automobil', 
+    'our_services_heading' => 'Naše izvrsne solucije za vaš automobil',
     'services_description' => 'Zahvaljujući našem dugogodišnjem iskustvu i predanosti savršenstvu, pružamo vrhunske usluge detaljnog čišćenja automobila. Od temeljnog čišćenja interijera do visokog sjaja poliranja, brižno se brinemo o vašem vozilu ostavljajući ga sjajnim i zaštićenim.',
     'read_more' => 'Pročitajte više',
     'wheels_heading' => 'Restauracija felgi',
@@ -123,5 +123,9 @@ return [
     'our_story_text_2' => 'Naša lokacija na adresi Kastanienring 2, Grafing 85293 Reichertshausen, Njemačka, opremljena je najsavremenijim alatima i opremom, omogućavajući nam da pružimo sveobuhvatne usluge detaljnog čišćenja vozila prilagođene individualnim potrebama svakog vozila. Naš tim iskusnih tehničara specijaliziran je za pružanje najviše razine zanatskog umijeća i pažnje prema detaljima. Shvatamo da je vaše vozilo vrijedna investicija i tretiramo ga s najvećom pažnjom i poštovanjem.',
     'our_mission_text_1' => 'U Alpha Car Detail-u težimo izvrsnosti kako bismo postigli najbolje moguće rezultate za vaše vozilo. Koristimo samo najbolje proizvode, uključujući naše Sonax-certificirane proizvode, i primjenjujemo naše znanje kako bismo pružili detaljno unutarnje i vanjsko čišćenje, ispravke boje, zaštitne premaze i usluge restauracije. Težnja ka izvrsnosti nam je donijela vjernu klijentelu koja nam povjerava svoja vrijedna vozila.',
     'our_mission_text_2' => 'Ponosni smo što gradimo dugoročne odnose s našim klijentima i ciljamo da prevaziđemo njihova očekivanja sa svakom uslugom. Naše profesionalne usluge detaljnog čišćenja usmjerene su na zadovoljenje vaših specifičnih zahtjeva i poboljšanje i zaštitu vašeg vozila tokom godina. Posjetite nas u Alpha Car Detail-u i iskusite razliku u njezi automobila.',
-    
+
+    'projects' => 'Projekata',
+    'clients' => 'Klijenata',
+    'years' => 'Godina iskustva',
+
 ];

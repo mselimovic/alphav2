@@ -124,8 +124,10 @@ return [
     'our_story_text_1' => "At Alpha Car Detail, we prioritize offering exceptional vehicle detailing services that surpass your expectations. With years of experience in the industry, we've honed our skills and perfected our techniques to achieve outstanding results for our customers.",
     'our_story_text_2' => 'Our location at Kastanienring 2, Grafing 85293 Reichertshausen, Germany, is equipped with state-of-the-art tools and equipment, allowing us to provide comprehensive car detailing services tailored to the individual needs of each vehicle. Our team of experienced technicians specializes in delivering the highest craftsmanship and attention to detail. We understand that your car is a valuable investment and treat it with the utmost care and respect.',
     'our_mission_text_1' => 'At Alpha Car Detail, we strive for excellence to achieve the best possible results for your vehicle. We only use the best products, including our Sonax-certified solutions, and apply our expertise to provide meticulous interior and exterior cleaning, paint corrections, protective coatings, and restoration services. Striving for excellence has earned us a loyal clientele who entrust us with their valuable vehicles.',
-    'our_mission_text_2' => 'We take pride in building long-term relationships with our customers and aim to exceed their expectations with every service. Our professional detailing services are designed to meet your specific requirements and enhance and protect your vehicle for years to come.'
+    'our_mission_text_2' => 'We take pride in building long-term relationships with our customers and aim to exceed their expectations with every service. Our professional detailing services are designed to meet your specific requirements and enhance and protect your vehicle for years to come.',
     
-
+    'projects' => 'Projects',
+    'clients' => 'Clients',
+    'years'=> 'Years Exp.',
 
 ];

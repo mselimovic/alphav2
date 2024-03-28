@@ -1,7 +1,7 @@
 @extends('layouts.guest')
 <header class="mt-5 bg-about">
     <div class="p-5 text-center bg-body-tertiary">
-      <h1 class="pt-5 text-uppercase alpha-secondary">{{__('common.about')}}</h1>
+        <h1 class="pt-5 text-uppercase text-light">{{ __('common.about') }}</h1>
     </div>
 </header>
 @section('content')
@@ -15,9 +15,9 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
-                    <h4>{{__('common.our_story')}}</h4>
-                    <p>{{__('common.our_story_text_1')}}</p>
-                    <p>{{__('common.our_story_text_2')}}</p>
+                    <h4>{{ __('common.our_story') }}</h4>
+                    <p>{{ __('common.our_story_text_1') }}</p>
+                    <p>{{ __('common.our_story_text_2') }}</p>
                 </div>
             </div>
             <div class="row justify-content-evenly align-items-center py-3">
@@ -28,9 +28,9 @@
                     </div>
                 </div>
                 <div class="col-lg-5 col-sm-6 order-lg-1">
-                    <h4>{{__('common.our_mission')}}</h4>
-                    <p>{{__('common.our_mission_text_1')}}</p>
-                    <p>{{__('common.our_mission_text_2')}}</p>
+                    <h4>{{ __('common.our_mission') }}</h4>
+                    <p>{{ __('common.our_mission_text_1') }}</p>
+                    <p>{{ __('common.our_mission_text_2') }}</p>
                 </div>
             </div>
         </div>

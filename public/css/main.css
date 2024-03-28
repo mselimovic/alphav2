@@ -207,3 +207,7 @@ hr {
   background: url(../img/about/about_header.webp);
   background-size: cover;
 }
+.bg-services {
+  background: url(../img/services/services_header.webp);
+  background-size: cover;
+}

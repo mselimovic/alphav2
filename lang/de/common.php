@@ -132,4 +132,10 @@ return [
     'our_story_text_2' => 'Unser Standort in Kastanienring 2, Grafing 85293 Reichertshausen, Deutschland, ist mit modernsten Werkzeugen und Geräten ausgestattet, sodass wir umfassende Autoaufbereitungsdienstleistungen anbieten können, die den individuellen Bedürfnissen jedes Fahrzeugs gerecht werden. Unser Team aus erfahrenen Technikern ist darauf spezialisiert, höchste Handwerkskunst und Liebe zum Detail zu liefern. Wir verstehen, dass Ihr Auto eine wertvolle Investition ist, und behandeln es mit größter Sorgfalt und Respekt.',
     'our_mission_text_1' => 'Bei Alpha Car Detail streben wir nach Exzellenz, um die bestmöglichen Ergebnisse für Ihr Fahrzeug zu erzielen. Wir verwenden nur die besten Produkte, einschließlich unserer Sonax-zertifizierten Lösungen, und setzen unser Fachwissen ein, um eine sorgfältige Innen- und Außenreinigung, Lackkorrekturen, Schutzbeschichtungen und Restaurierungsdienstleistungen zu bieten. Streben nach Exzellenz hat uns eine treue Kundschaft eingebracht, die uns ihre wertvollen Fahrzeuge anvertraut.',
     'our_mission_text_2' => 'Wir sind stolz darauf, langfristige Beziehungen zu unseren Kunden aufzubauen und streben danach, ihre Erwartungen mit jedem Service zu übertreffen. Unsere professionellen Aufbereitungsdienstleistungen sind darauf ausgerichtet, Ihre spezifischen Anforderungen zu erfüllen und Ihr Fahrzeug über Jahre hinweg zu verschönern und zu schützen. Besuchen Sie uns bei Alpha Car Detail, und erleben Sie den Unterschied in der Autopflege.',
+    'projects' => 'Projekte',
+    'clients' => 'Kunden',
+    'years' => 'Jahre Erf.',
+    'program_1_inner' => 'Program 1 Innenreinigung',
+    'suv_50' => '(zusätzlich 50€ für SUV-Fahrzeuge)',
+
 ];
