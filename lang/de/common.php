@@ -135,7 +135,21 @@ return [
     'projects' => 'Projekte',
     'clients' => 'Kunden',
     'years' => 'Jahre Erf.',
-    'program_1_inner' => 'Program 1 Innenreinigung',
+    'program_1_inner' => 'Program 1 innenreinigung',
     'suv_50' => '(zusätzlich 50€ für SUV-Fahrzeuge)',
+    'program_2_inner' => 'Program Alpha innenreinigung ',
+    'program_1_ceramic' => 'Keramik Program 1',
+    'program_2_ceramic' => 'Keramik Program 2',
+    'suv_40' => '(zusätzlich 40€ für SUV-Fahrzeuge)',
+    'program_3_ceramic' => 'Alpha Keramik',
+    'suv_110' => '(zusätzlich 110€ für SUV-Fahrzeuge)',
+    'program_1_polish' => 'Program 1 polieren',
+    'program_2_polish' => 'Program 2 polieren',
+    'program_3_polish' => 'Alpha Program',
+    'suv_60' => '(zusätzlich 60€ für SUV-Fahrzeuge)',
+    'suv_75' => '(zusätzlich 75€ für SUV-Fahrzeuge)',
+    'suv_90' => '(zusätzlich 90€ für SUV-Fahrzeuge)',
+
+
 
 ];

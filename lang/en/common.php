@@ -34,7 +34,7 @@ return [
     'interior_card_heading' => 'Interior Cleaning',
     'wheel_restoration_heading' => 'Wheel Restoration',
     'about_heading' => 'About Us',
-    'about_text' => 
+    'about_text' =>
     "At Alpha Car Detail, we specialize in providing exceptional vehicle detailing services at our state-of-the-art location in Grafing, Germany. With refined skills and meticulous attention to detail, our experienced team delivers outstanding results, offering services such as meticulous interior and exterior cleaning, paint corrections, and protective coatings. Trust us for professional car detailing that enhances and protects your vehicle, ensuring it receives the care it deserves for years to come.",
     'certified' => 'Certified',
     'professional_staff' => 'Professional Staff',
@@ -57,7 +57,7 @@ return [
     'interior_description' => 'Deep interior cleaning ensures a fresh and well-maintained interior of your vehicle.',
     'wheels_description' => 'Wheel restoration gives your wheels a new shine and enhances driving safety.',
     'erhan' => 'This highly qualified man not only works professionally but with passion and with a special eye for detail. Price-performance ratio is consistent. I can recommend him to anyone. I drove the car to him on Saturday and got it back on Sunday as "new."',
-    'robert' => 'Clear recommendation 👍 would say 5 stars. Perfect preparation and brought the paint back to a new car condition.', 
+    'robert' => 'Clear recommendation 👍 would say 5 stars. Perfect preparation and brought the paint back to a new car condition.',
     'jahic' => "Highly recommended! The man knows what he's doing. He brought my car to a new car condition. He got the most out of the paint. What I also liked was the way he dealt with the customer. Price/performance is simply very good.",
     'boris' => 'I brought the car for preparation, everything was super, great advice, everything top, highly recommended.',
     'christiane' => 'Very neat, punctual, and reliable - will gladly back again. Clear recommendation 👍',
@@ -120,14 +120,28 @@ return [
     ],
     'our_mission' => 'Our Mission',
     'our_story' => 'Our Story',
-    
+
     'our_story_text_1' => "At Alpha Car Detail, we prioritize offering exceptional vehicle detailing services that surpass your expectations. With years of experience in the industry, we've honed our skills and perfected our techniques to achieve outstanding results for our customers.",
     'our_story_text_2' => 'Our location at Kastanienring 2, Grafing 85293 Reichertshausen, Germany, is equipped with state-of-the-art tools and equipment, allowing us to provide comprehensive car detailing services tailored to the individual needs of each vehicle. Our team of experienced technicians specializes in delivering the highest craftsmanship and attention to detail. We understand that your car is a valuable investment and treat it with the utmost care and respect.',
     'our_mission_text_1' => 'At Alpha Car Detail, we strive for excellence to achieve the best possible results for your vehicle. We only use the best products, including our Sonax-certified solutions, and apply our expertise to provide meticulous interior and exterior cleaning, paint corrections, protective coatings, and restoration services. Striving for excellence has earned us a loyal clientele who entrust us with their valuable vehicles.',
     'our_mission_text_2' => 'We take pride in building long-term relationships with our customers and aim to exceed their expectations with every service. Our professional detailing services are designed to meet your specific requirements and enhance and protect your vehicle for years to come.',
-    
+
     'projects' => 'Projects',
     'clients' => 'Clients',
-    'years'=> 'Years Exp.',
+    'years' => 'Years Exp.',
+    'program_1_inner' => 'Program 1 interior cleaning',
+    'program_2_inner' => 'Program Alpha interior cleaning',
+    'suv_50' => '(additional 50€ for SUV vehicles)',
+    'program_1_ceramic' => 'Ceramic Program 1',
+    'program_2_ceramic' => 'Ceramic Program 2',
+    'suv_40' => '(additional 40€ for SUV vehicles)',
+    'program_3_ceramic' => 'Alpha Ceramic',
+    'suv_110' => '(additional 110€ for SUV vehicles)',
+    'program_1_polish' => 'Program 1 polishing',
+    'program_2_polish' => 'Program 2 polishing',
+    'program_3_polish' => 'Alpha Program',
+    'suv_60' => '(additional 60€ for SUV vehicles)',
+    'suv_75' => '(additional 75€ for SUV vehicles)',
+    'suv_90' => '(additional 90€ for SUV vehicles)',
 
 ];
