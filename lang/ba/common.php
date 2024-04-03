@@ -72,7 +72,6 @@ return [
         "Potpuno usisavanje unutrašnjosti sa izvađenim sjedištima",
         "Čišćenje unutrašnjih stakala",
         "Njega kokpita i središnje konzole",
-        "Pranje i sušenje podnih prostirki",
         "Usisavanje prtljažnika, čišćenje okvira prtljažnika i razmaka",
         "Čišćenje pragova vrata",
         "Neutralizacija mirisa",
@@ -141,4 +140,14 @@ return [
     'suv_60' => '(dodatnih 60€ za SUV vozila)',
     'suv_75' => '(dodatnih 75€ za SUV vozila)',
     'suv_90' => '(dodatnih 90€ za SUV vozila)',
+    'ceramic_description_services' => 'Keramičko premazivanje pruža napredni zaštitni sloj koji štiti lak vašeg vozila od oštećenja uzrokovanih okolinom, osiguravajući dugotrajni sjaj i jednostavnost održavanja.',
+    'polish_description_services' => 'Poliranje je temeljan proces koji osvježava vanjski izgled vašeg automobila uklanjanjem površinskih nedostataka i obnavljanjem sjajnog, izložbenog završetka.',
+    'interior_description_services' => 'Detaljno čišćenje unutrašnjosti podrazumijeva temeljito čišćenje unutarnjih površina vašeg vozila, ostavljajući vaš automobil svježim, udobnim i dobro održavanim.',
+    'wheels_description_services' => 'Obnova kotača podrazumijeva obnavljanje vaših kotača na njihovu nekadašnju slavu, poboljšavajući njihov izgled i trajnost, osiguravajući istovremeno optimalnu sigurnost i performanse na cesti.',
+    'learn_more' => 'Saznaj Više',
+    'requests_alert_heading' => 'Dobrodošli,',
+    'requests_alert_content' => "Ako imate bilo kakvih pitanja o našim uslugama ili želite zatražiti personalizirane informacije prilagođene vašim specifičnim potrebama, nalazite se na pravom mjestu. Jednostavno popunite formular ispod, i mi ćemo vam se što prije javiti s potrebnim informacijama.",
+    'requests_alert_faq_text' => "Dodatno, ako tražite brze odgovore, slobodno pogledajte našu sekciju",
+    'requests_alert_faq_text2' => "gdje možete pronaći odgovore na česta pitanja.",
+
 ];

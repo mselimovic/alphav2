@@ -81,7 +81,6 @@ return [
         "Innenraum komplett absaugen mit sitzplätzen rausnehmen",
         "Scheiben reinigung innen",
         "Cockpit mit mittelkonsole pflege",
-        "Fußmatten waschen + trocken",
         "Kofferraum absaugen, kofferraum rahmen und zwischenraum reinigung",
         "Einstiegleisten reinigen",
         "Geruchneutralisierung",
@@ -149,7 +148,13 @@ return [
     'suv_60' => '(zusätzlich 60€ für SUV-Fahrzeuge)',
     'suv_75' => '(zusätzlich 75€ für SUV-Fahrzeuge)',
     'suv_90' => '(zusätzlich 90€ für SUV-Fahrzeuge)',
-
-
-
+    'ceramic_description_services' => 'Die Keramikbeschichtung bietet eine fortschrittliche Schutzschicht, die den Lack Ihres Fahrzeugs vor Umwelteinflüssen schützt, lang anhaltenden Glanz und einfache Wartung gewährleistet.',
+    'polish_description_services' => 'Das Polieren ist ein akribischer Prozess, der die Außenseite Ihres Autos durch Entfernen von Oberflächenunvollkommenheiten revitalisiert und einen glänzenden, ausstellungsreifen Abschluss wiederherstellt.',
+    'interior_description_services' => 'Die Innenreinigung umfasst eine gründliche Reinigung der Innenflächen Ihres Fahrzeugs, einschließlich Sitze, Teppiche und Armaturenbrett, und hinterlässt Ihr Auto frisch, komfortabel und gepflegt.',
+    'wheels_description_services' => 'Die Radrestaurierung beinhaltet die Aufbereitung Ihrer Räder zu ihrem früheren Glanz, verbessert ihr Aussehen und ihre Haltbarkeit und gewährleistet gleichzeitig optimale Sicherheit und Leistung auf der Straße.',
+    'learn_more' => 'Erfahren Sie mehr',
+    'requests_alert_heading' => 'Willkommen,',
+    'requests_alert_content' => "Wenn Sie Fragen zu unseren Dienstleistungen haben oder personalisierte Informationen anfordern möchten, die auf Ihre spezifischen Bedürfnisse zugeschnitten sind, sind Sie hier genau richtig. Füllen Sie einfach das untenstehende Formular aus, und wir werden uns so schnell wie möglich mit den benötigten Informationen bei Ihnen melden.",
+    'requests_alert_faq_text' => "Zusätzlich können Sie bei Bedarf schnelle Antworten in unserem",
+    'requests_alert_faq_text2' => "- Bereich finden, wo häufig gestellte Fragen und hilfreiche Tipps zu finden sind.",
 ];

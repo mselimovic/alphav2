@@ -1,4 +1,4 @@
-<div class="container-fluid text-white-50 footer pt-5">
+<div class="container-fluid text-white-50 footer pt-5 bg-dark">
   <div class="container py-5">
       <div class="row g-5">
           <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
@@ -23,7 +23,7 @@
               <a class="btn btn-link" href="{{ route('pages.contact') }}">{{__('common.contact')}}</a>
               <a class="btn btn-link" href="{{ route('pages.services') }}">{{__('common.services')}}</a>
               <a class="btn btn-link" href="">{{__('common.terms')}}</a>
-              <a class="btn btn-link" href="">{{__('common.faq')}}</a>
+              <a class="btn btn-link" href="{{ route('pages.faq') }}">{{__('common.faq')}}</a>
           </div>
           <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
               <h5 class="text-white mb-4">{{__('common.our_services')}}</h5>
