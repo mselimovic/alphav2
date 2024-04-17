@@ -3,6 +3,7 @@
 use App\Http\Controllers\LangController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
+use App\Http\Controllers\RequestFormController;
 use Illuminate\Support\Facades\Session;
 
 /*
@@ -24,6 +25,7 @@ Route::get('/request', [PagesController::class, 'request'])->name('pages.request
 Route::get('/contact', [PagesController::class, 'contact'])->name('pages.contact');
 Route::get('/faq', [PagesController::class, 'faq'])->name('pages.faq');
 Route::get('/privacy', [PagesController::class, 'privacy'])->name('pages.privacy');
+Route::post('/submit-form', [RequestFormController::class, 'submitForm'])->name('submit.form');
 // Route::get('/lang/{locale}', function ($lang) {
 //     Session::put('locale', $lang);
 //     return redirect()->back();

@@ -13,38 +13,39 @@
           </div>
         <div class="col-12 row gx-0">
             <div class="col-md-12 col-12">
-                <form>
+                <form method="POST" id="requestForm" action="{{ route('submit.form') }}">
+                    @csrf
                     <div>
                         <div class="col-12 d-flex row">
                             <div class="col-md-6">
-                                <label for="full_name">@lang('common.full_name')</label>
-                                <input type="text" class="form-control" id="full_name" placeholder="@lang('common.full_name')">
+                                <label for="full_name">{{__('common.full_name')}}</label>
+                                <input type="text" class="form-control" id="full_name" placeholder="">
                             </div>
                             <div class="col-md-6 pt-md-0 pt-3">
-                                <label for="email">@lang('common.email')</label>
+                                <label for="email">{{__('common.email')}}</label>
                                 <input type="email" class="form-control" id="email"
-                                    placeholder="@lang('common.email')">
+                                    placeholder="">
                             </div>
                             <div class="col-md-6 pt-3">
-                                <label for="company_name">@lang('common.company_name')</label>
-                                <input type="text" class="form-control" id="company_name"
-                                    placeholder="@lang('common.company_name')">
+                                <label for="phone_number">{{__('common.phone_number')}}</label>
+                                <input type="text" class="form-control" id="phone_number"
+                                    placeholder="">
                             </div>
                             <div class="col-md-6 pt-3">
-                                <label for="subject">@lang('common.subject')</label>
+                                <label for="subject">{{__('common.subject')}}</label>
                                 <input type="text" class="form-control" id="subject"
-                                    placeholder="@lang('common.subject')">
+                                    placeholder="">
                             </div>
                             <div class="pt-3">
-                                <label for="message">@lang('common.message')</label>
-                                <textarea type="text" class="form-control" id="message" rows="5" placeholder="@lang('common.message')"> </textarea>
+                                <label for="message">{{__('common.message')}}</label>
+                                <textarea type="text" class="form-control" id="message" rows="5" placeholder=""> </textarea>
                             </div>
                         </div>
                         <div class="form-check py-2 ">
                             <input class="form-check-input" type="checkbox" value="1" id="gdpr_rules"
                                 name="gdpr_rules">
                             <label class="form-check-label" for="gdpr_rules">
-                                @lang('common.gdpr_rules') <a href="{{ route('pages.privacy') }}">Datenschutzerklärung</a>
+                                {{__('common.gdpr_rules')}} <a href="{{ route('pages.privacy') }}">{{__('common.privacy_policy')}}</a>
                             </label>
                             @error('gdpr_rules')
                                 <span class="text-danger"
@@ -52,15 +53,14 @@
                             @enderror
                         </div>
                         <div class="py-3">
-                            <button type="submit" class="btn btn-primary" id="sendButton"
-                                disabled>@lang('common.send')</button>
+                            <button type="submit" class="btn btn-warning px-5" id="sendButton"
+                                disabled>{{__('common.send')}}</button>
                         </div>
                     </div>
                 </form>
             </div>
         </div>
     </div>
-    @push('custom-scripts')
         <script>
             function toggleSendButton() {
                 var gdprCheckbox = document.getElementById('gdpr_rules');
@@ -76,5 +76,4 @@
             gdprCheckbox.addEventListener('change', toggleSendButton);
             toggleSendButton();
         </script>
-    @endpush
 

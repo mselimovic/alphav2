@@ -151,4 +151,12 @@ return [
     'requests_alert_content' => "If you have any questions about our services or would like to request personalized information tailored to your specific needs, you're in the right place. Simply fill out the form below, and we'll get back to you as soon as possible with the information you need.",
     'requests_alert_faq_text' => "Additionally, if you're looking for quick answers, feel free to check out our",
     'requests_alert_faq_text2' => "section for commonly asked questions and helpful tips.",
+    'gdpr_rules' => "I agree that my data will be processed to handle my request. Further information on this can be found in our",
+    'privacy_policy' => 'Privacy policy',
+    'full_name' => 'Name',
+    'email' => 'Email',
+    'phone_number' => 'Phone number',
+    'subject' => 'Subject',
+    'message'=> 'Message',
+    'send' => 'Send',
 ];

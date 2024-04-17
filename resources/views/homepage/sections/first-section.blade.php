@@ -20,11 +20,11 @@
                   </div>
               </div>
               <div class="d-flex align-items-center mt-4">
-                  <a class="btn btn-info px-4 me-3" href="{{ route('pages.about') }}">{{__('common.read_more')}}</a>
-                  <a class="btn btn-outline-info btn-square me-3" target="_blank" href="https://www.facebook.com/ArminDetailing"><i class="fab fa-facebook"></i></a>
-                  <a class="btn btn-outline-info btn-square me-3" target="_blank" href="https://www.youtube.com/channel/UC16yakjRKE1OSRNuThzydCw"><i class="fab fa-youtube"></i></a>
-                  <a class="btn btn-outline-info btn-square me-3" target="_blank" href="https://www.instagram.com/alphaacardetaailing/"><i class="fab fa-instagram"></i></a>
-                  <a class="btn btn-outline-info btn-square" target="_blank" href="https://www.tiktok.com/@alphadetailing3"><i class="fab fa-tiktok"></i></a>
+                  <a class="btn btn-info mx-1" href="{{ route('pages.about') }}">{{__('common.read_more')}}</a>
+                  <a class="btn btn-outline-info btn-square " target="_blank" href="https://www.facebook.com/ArminDetailing"><i class="fab fa-facebook"></i></a>
+                  <a class="btn btn-outline-info btn-square mx-1" target="_blank" href="https://www.youtube.com/channel/UC16yakjRKE1OSRNuThzydCw"><i class="fab fa-youtube"></i></a>
+                  <a class="btn btn-outline-info btn-square " target="_blank" href="https://www.instagram.com/alphaacardetaailing/"><i class="fab fa-instagram"></i></a>
+                  <a class="btn btn-outline-info btn-square mx-1" target="_blank" href="https://www.tiktok.com/@alphadetailing3"><i class="fab fa-tiktok"></i></a>
               </div>
           </div>
       </div>

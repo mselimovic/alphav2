@@ -149,5 +149,13 @@ return [
     'requests_alert_content' => "Ako imate bilo kakvih pitanja o našim uslugama ili želite zatražiti personalizirane informacije prilagođene vašim specifičnim potrebama, nalazite se na pravom mjestu. Jednostavno popunite formular ispod, i mi ćemo vam se što prije javiti s potrebnim informacijama.",
     'requests_alert_faq_text' => "Dodatno, ako tražite brze odgovore, slobodno pogledajte našu sekciju",
     'requests_alert_faq_text2' => "gdje možete pronaći odgovore na česta pitanja.",
+    'gdpr_rules' => 'Slažem se da se moji podaci koriste u svrhu obrade mog zahtjeva. Više informacija o tome možete pronaći u ',
+    'privacy_policy' => 'Pravila o privatnosti',
+    'full_name' => 'Ime i prezime',
+    'email' => 'Email',
+    'phone_number' => 'Broj telefona',
+    'subject' => 'Predmet',
+    'message' => 'Poruka',
+    'send' => 'Pošalji',
 
 ];
