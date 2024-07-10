@@ -39,7 +39,7 @@ class QuestionController extends Controller
     
         Mail::to($formData['email'])->send(new UserFormSubmitted($formDataArray, $locale));
         
-        Mail::to('mehmed.selimovic.ets@gmail.com')->send(new AdminFormNotification($formDataArray, $locale));
+        Mail::to('info@alphacardetail.com')->send(new AdminFormNotification($formDataArray, $locale));
     
         return redirect()->route('pages.thankYou');
     }
