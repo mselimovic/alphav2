@@ -38,4 +38,9 @@ class PagesController extends Controller
     {
         return view('pages.privacy');
     }
+    public function thanks()
+    {
+        return view('pages.thankYou');
+    }
+
 }
