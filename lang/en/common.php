@@ -159,4 +159,13 @@ return [
     'subject' => 'Subject',
     'message'=> 'Message',
     'send' => 'Send',
+    'thank_you' => 'Thank You!',
+    'thank_you_header' => 'Your form has been submitted successfully.',
+    'thank_you_msg' => 'We appreciate your interest. Our team will review your submission and get back to you as soon as possible.',
+    'go_back' => 'Go Back',
+    'dear_user' => 'Dear :name',
+    'thank_you_submission' => 'Thank you for reaching out to us. We have successfully received your inquiry.',
+    'team_reviewing' => 'Our dedicated team is currently reviewing your message and will respond to you at the earliest convenience. We appreciate your patience.',
+    'subject_received' => 'We have successfully received your inquiry',
+    'admin_subject_received' => 'Alpha Car Detail - New message',
 ];

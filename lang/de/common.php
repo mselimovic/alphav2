@@ -165,4 +165,13 @@ return [
     'subject' => 'Betreff',
     'message' => 'Nachricht',
     'send' => 'Senden',
+    'thank_you' => 'Vielen Dank',
+    'thank_you_header' => 'Ihr Formular wurde erfolgreich übermittelt.',
+    'thank_you_msg' => 'Wir danken Ihnen für Ihr Interesse. Unser Team wird Ihre Einreichung überprüfen und sich so schnell wie möglich bei Ihnen melden.',
+    'go_back' => 'Gehe Zurück',
+    'dear_user' => 'Sehr geehrter :name',
+    'thank_you_submission' => 'Vielen Dank, dass Sie uns kontaktiert haben. Wir haben Ihre Anfrage erfolgreich erhalten.',
+    'team_reviewing' => 'Unser engagiertes Team überprüft derzeit Ihre Nachricht und wird Ihnen so schnell wie möglich antworten. Wir danken Ihnen für Ihre Geduld.',
+    'subject_received' => 'Wir haben Ihre Anfrage erfolgreich erhalten',
+    'admin_subject_received' => 'Alpha Car Detail - neue Abfrage',
 ];

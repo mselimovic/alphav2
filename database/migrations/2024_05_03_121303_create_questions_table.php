@@ -6,21 +6,28 @@ use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration
 {
-    public function up()
+    /**
+     * Run the migrations.
+     */
+    public function up(): void
     {
-        Schema::create('form_data', function (Blueprint $table) {
+        Schema::create('questions', function (Blueprint $table) {
             $table->id();
             $table->string('full_name');
             $table->string('email');
             $table->string('phone_number');
             $table->string('subject');
             $table->text('message');
+            $table->boolean('gdpr_rules');
             $table->timestamps();
         });
     }
 
-    public function down()
+    /**
+     * Reverse the migrations.
+     */
+    public function down(): void
     {
-        Schema::dropIfExists('form_data');
+        Schema::dropIfExists('questions');
     }
 };

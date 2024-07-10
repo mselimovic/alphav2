@@ -157,5 +157,16 @@ return [
     'subject' => 'Predmet',
     'message' => 'Poruka',
     'send' => 'Pošalji',
+    'thank_you' => 'Hvala Vam!',
+    'thank_you_header' => 'Vaša forma je uspješno poslana.',
+    'thank_you_msg' => 'Cijenimo Vaš interes. Naš tim će pregledati Vaš upit i javiti Vam se što je prije moguće.',
+    'go_back' => 'Nazad',
+    'dear_user' => 'Poštovani :name',
+    'thank_you_submission' => 'Hvala vam što ste nas kontaktirali. Vaš upit je uspješno zaprimljen.',
+    'team_reviewing' => 'Naš posvećeni tim trenutno pregledava vašu poruku i odgovorit će vam u najkraćem mogućem roku. Zahvaljujemo na vašem strpljenju.',
+    'subject_received' => 'Vaš upit je uspješno zaprimljen',
+    'admin_subject_received' => 'Alpha Car Detail - Novi upit',
 
+
+   
 ];
