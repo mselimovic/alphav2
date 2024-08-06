@@ -215,6 +215,10 @@ hr {
   background: url(../img/request/request_header.webp);
   background-size: cover;
 }
+.bg-contact {
+  background: url(../img/contact/contact_header.webp);
+  background-size: cover;
+}
 
 .service-card {
   position: relative;

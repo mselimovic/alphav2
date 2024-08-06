@@ -13,7 +13,7 @@
                 <ul id="interior_ul" class="features text-black">
        
                 </ul>
-                <a href="#" class="cta_btn mt-auto">{{__('common.learn_more')}}</a>
+                <a href="{{ route('pages.request') }}" class="cta_btn mt-auto">{{__('common.learn_more')}}</a>
             </div>
             <div class="card" id="polish_card">
                 <h4 class="card_title">@lang('common.polish_card_heading')</h4>
@@ -27,7 +27,7 @@
                 <hr>
                 <ul id="polish_ul" class="features text-black">
                 </ul>
-                <a href="#" class="cta_btn mt-auto">{{__('common.learn_more')}}</a>
+                <a href="{{ route('pages.request') }}" class="cta_btn mt-auto">{{__('common.learn_more')}}</a>
             </div>
             <div class="card" id="ceramic_card">
                 <h4 class="card_title">@lang('common.ceramic_card_heading')</h4>
@@ -42,7 +42,7 @@
                 <ul id="ceramic_ul" class="features text-black">
 
                 </ul>
-                <a href="#" class="cta_btn mt-auto">{{__('common.learn_more')}}</a>
+                <a href="{{ route('pages.request') }}" class="cta_btn mt-auto">{{__('common.learn_more')}}</a>
             </div>
 
         </div>

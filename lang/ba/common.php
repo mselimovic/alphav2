@@ -166,6 +166,8 @@ return [
     'team_reviewing' => 'Naš posvećeni tim trenutno pregledava vašu poruku i odgovorit će vam u najkraćem mogućem roku. Zahvaljujemo na vašem strpljenju.',
     'subject_received' => 'Vaš upit je uspješno zaprimljen',
     'admin_subject_received' => 'Alpha Car Detail - Novi upit',
+    'coming_soon' => 'Uskoro...',
+    
 
 
    

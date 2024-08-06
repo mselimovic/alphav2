@@ -1,4 +1,4 @@
-<div class="container-fluid text-white-50 footer pt-5 bg-dark">
+<div class="container-fluid text-white-50 footer pt-5 bg-dark ">
   <div class="container py-5">
       <div class="row g-5">
           <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">

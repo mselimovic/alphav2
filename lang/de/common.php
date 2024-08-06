@@ -174,4 +174,5 @@ return [
     'team_reviewing' => 'Unser engagiertes Team überprüft derzeit Ihre Nachricht und wird Ihnen so schnell wie möglich antworten. Wir danken Ihnen für Ihre Geduld.',
     'subject_received' => 'Wir haben Ihre Anfrage erfolgreich erhalten',
     'admin_subject_received' => 'Alpha Car Detail - neue Abfrage',
+    'coming_soon' => 'Demnächst...',
 ];

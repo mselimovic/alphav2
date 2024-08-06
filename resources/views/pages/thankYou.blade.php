@@ -5,15 +5,14 @@
     </div>
 </header>
 @section('content')
-<div class="container-fluid bg-light">
-  <div class="container py-5">
-    <div class="text-center">
-        <h2 class="mb-4">{{__('common.thank_you')}}</h2>
-        <p class="lead">{{__('common.thank_you_header')}}</p>
-        <p>{{__('common.thank_you_msg')}}</p>
-        <a href="{{ route('pages.request') }}" class="btn btn-primary mt-3">Go Back</a>
+    <div class="container-fluid bg-light">
+        <div class="container py-5">
+            <div class="text-center">
+                <h2 class="mb-4">{{ __('common.thank_you') }}</h2>
+                <p class="lead">{{ __('common.thank_you_header') }}</p>
+                <p>{{ __('common.thank_you_msg') }}</p>
+                <a href="{{ route('pages.request') }}" class="btn btn-info mt-3">Go Back</a>
+            </div>
+        </div>
     </div>
-</div>
-</div>
 @endsection
-

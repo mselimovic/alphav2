@@ -89,3 +89,4 @@
     gdprCheckbox.addEventListener('change', toggleSendButton);
     toggleSendButton();
 </script>
+ 

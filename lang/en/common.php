@@ -168,4 +168,5 @@ return [
     'team_reviewing' => 'Our dedicated team is currently reviewing your message and will respond to you at the earliest convenience. We appreciate your patience.',
     'subject_received' => 'We have successfully received your inquiry',
     'admin_subject_received' => 'Alpha Car Detail - New message',
+    'coming_soon' => 'Coming soon...',
 ];
