@@ -3,7 +3,7 @@
       <div class="row g-5 d-flex align-items-center">
           <div class="col-lg-6  wow fadeIn" data-wow-delay="0.3s">
               <div class="about-img">
-                  <img class="img-fluid" src={{ asset('img/about-img.png') }}>
+                  <img class="img-fluid" src={{ asset('img/about-img.webp') }}>
               </div>
           </div>
           <div class="col-lg-6  wow fadeIn" data-wow-delay="0.4s">

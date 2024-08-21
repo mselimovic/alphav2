@@ -139,7 +139,7 @@ return [
     'program_3_polish' => 'Alpha Program',
     'suv_60' => '(dodatnih 60€ za SUV vozila)',
     'suv_75' => '(dodatnih 75€ za SUV vozila)',
-    'suv_90' => '(dodatnih 90€ za SUV vozila)',
+    'suv_95' => '(dodatnih 90€ za SUV vozila)',
     'ceramic_description_services' => 'Keramičko premazivanje pruža napredni zaštitni sloj koji štiti lak vašeg vozila od oštećenja uzrokovanih okolinom, osiguravajući dugotrajni sjaj i jednostavnost održavanja.',
     'polish_description_services' => 'Poliranje je temeljan proces koji osvježava vanjski izgled vašeg automobila uklanjanjem površinskih nedostataka i obnavljanjem sjajnog, izložbenog završetka.',
     'interior_description_services' => 'Detaljno čišćenje unutrašnjosti podrazumijeva temeljito čišćenje unutarnjih površina vašeg vozila, ostavljajući vaš automobil svježim, udobnim i dobro održavanim.',
@@ -167,6 +167,7 @@ return [
     'subject_received' => 'Vaš upit je uspješno zaprimljen',
     'admin_subject_received' => 'Alpha Car Detail - Novi upit',
     'coming_soon' => 'Uskoro...',
+    'contact_alert_content' => 'Imate li pitanja o našim uslugama ili trebate prilagođene informacije koje odgovaraju vašim specifičnim potrebama? Na pravom ste mjestu! Samo popunite obrazac ispod, i javit ćemo vam se što prije s potrebnim informacijama.',
     
 
 

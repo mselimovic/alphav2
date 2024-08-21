@@ -1,6 +1,6 @@
 @extends('layouts.guest')
 <header class="mt-5 bg-request">
-    <div class="p-5 text-center bg-body-tertiary">
+    <div class="p-5 text-center ">
         <h1 class="pt-5 text-uppercase text-light">{{ __('common.request') }}</h1>
     </div>
 </header>

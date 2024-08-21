@@ -141,7 +141,7 @@ return [
     'program_3_polish' => 'Alpha Program',
     'suv_60' => '(additional 60€ for SUV vehicles)',
     'suv_75' => '(additional 75€ for SUV vehicles)',
-    'suv_90' => '(additional 90€ for SUV vehicles)',
+    'suv_95' => '(additional 90€ for SUV vehicles)',
     'ceramic_description_services' => "Ceramic coating provides an advanced protective layer that shields your vehicle's paint from environmental damage, ensuring long-lasting brilliance and ease of maintenance.",
     'polish_description_services' => "Polishing is a meticulous process that revitalizes your car's exterior by removing surface imperfections and restoring a glossy, showroom-worthy finish.",
     'interior_description_services' => "Interior detailing involves a comprehensive cleaning of your vehicle's interior surfaces, including seats, carpets, and dashboard, leaving your car feeling fresh, comfortable, and well-cared for.",
@@ -169,4 +169,5 @@ return [
     'subject_received' => 'We have successfully received your inquiry',
     'admin_subject_received' => 'Alpha Car Detail - New message',
     'coming_soon' => 'Coming soon...',
+    'contact_alert_content' => "Looking for answers or specific details about our services? You're in the right place! Just fill out the form below, and we'll be in touch with the information you need as quickly as possible.",
 ];

@@ -22,13 +22,20 @@ integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""><
 </style>
 
 <header class="mt-5 bg-dark bg-contact">
-    <div class="p-5 text-center bg-body-tertiary">
+    <div class="p-5 text-center">
         <h1 class="pt-5 text-uppercase text-light">{{ __('common.contact') }}</h1>
     </div>
 </header>
 
 @section('content')
     <div class="bg-white container my-5">
+        <div class="alert alert-info mt-2" role="alert">
+            <h4 class="alert-heading">{{ __('common.requests_alert_heading') }}</h4>
+            <p>{{ __('common.contact_alert_content') }}</p>
+            <hr>
+            <p class="mb-0">{{ __('common.requests_alert_faq_text') }}<a href="{{ route('pages.faq') }}"
+                    class="alert-link px-1">FAQ</a>{{ __('common.requests_alert_faq_text2') }}</p>
+        </div>
         @if ($errors->any())
             <div class="alert alert-danger">
                 <ul>
@@ -89,7 +96,7 @@ integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""><
                     </div>
                 </form>
             </div>
-            <div class="col-lg-6 col-md-6 col-12">
+            <div class="col-lg-6 col-md-6 col-12 py-3">
                 <div id="map"></div>
             </div>
         </div>

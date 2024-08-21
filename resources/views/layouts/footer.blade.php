@@ -22,15 +22,15 @@
               <a class="btn btn-link" href="{{ route('pages.about') }}">{{__('common.about')}}</a>
               <a class="btn btn-link" href="{{ route('pages.contact') }}">{{__('common.contact')}}</a>
               <a class="btn btn-link" href="{{ route('pages.services') }}">{{__('common.services')}}</a>
-              <a class="btn btn-link" href="">{{__('common.terms')}}</a>
+              <a class="btn btn-link" href="{{ route('pages.privacy') }}">{{__('common.terms')}}</a>
               <a class="btn btn-link" href="{{ route('pages.faq') }}">{{__('common.faq')}}</a>
           </div>
           <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
               <h5 class="text-white mb-4">{{__('common.our_services')}}</h5>
-              <a class="btn btn-link" href="">{{__('common.ceramic_card_heading')}}</a>
-              <a class="btn btn-link" href="">{{__('common.polish_card_heading')}}</a>
-              <a class="btn btn-link" href="">{{__('common.interior_card_heading')}}</a>
-              <a class="btn btn-link" href="">{{__('common.wheel_restoration_heading')}}</a>
+              <a class="btn btn-link" href="{{ route('pages.services') }}">{{__('common.ceramic_card_heading')}}</a>
+              <a class="btn btn-link" href="{{ route('pages.services') }}">{{__('common.interior_card_heading')}}</a>
+              <a class="btn btn-link" href="{{ route('pages.services') }}">{{__('common.polish_card_heading')}}</a>
+              <a class="btn btn-link" href="{{ route('pages.services') }}">{{__('common.wheel_restoration_heading')}}</a>
           </div>
       </div>
   </div>

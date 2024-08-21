@@ -22,18 +22,19 @@ if (window.innerWidth < 992 && window.pageYOffset> 24) {
     });
 
     // testemonial
-    $(".testimonial-carousel").owlCarousel({
-    items: 1,
-    autoplay: true,
-    smartSpeed: 1000,
-    dots: true,
-    loop: true,
-    nav: true,
-    navText : [
-    '<i class="fa-solid fa-chevron-left"></i>',
-    '<i class="fa-solid fa-chevron-right"></i>'
-    ]
-    });
+        $(".testimonial-carousel").owlCarousel({
+            items: 1,
+            autoplay: true,
+            smartSpeed: 1000,
+            dots: true,
+            loop: true,
+            nav: true,
+            navText : [
+                '<i class="fa-solid fa-chevron-left"></i>',
+                '<i class="fa-solid fa-chevron-right"></i>'
+            ]
+        });
+  
 
 // language selector
 $(document).ready(function() {

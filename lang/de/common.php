@@ -175,4 +175,5 @@ return [
     'subject_received' => 'Wir haben Ihre Anfrage erfolgreich erhalten',
     'admin_subject_received' => 'Alpha Car Detail - neue Abfrage',
     'coming_soon' => 'Demnächst...',
+    'contact_alert_content' => 'Haben Sie Fragen zu unseren Dienstleistungen oder benötigen Sie maßgeschneiderte Informationen, die Ihren individuellen Anforderungen entsprechen? Sie sind an der richtigen Stelle! Füllen Sie einfach das untenstehende Formular aus, und wir werden Ihnen umgehend die gewünschten Informationen zukommen lassen.',
 ];

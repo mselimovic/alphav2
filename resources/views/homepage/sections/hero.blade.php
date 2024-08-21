@@ -3,7 +3,7 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <div class="overlay"></div>
-                <img class="w-100" src="img/alpha_car_detail_slider2.jpg" alt="Alpha Car Detail slider photo">
+                <img class="w-100" src="img/alpha_car_detail_slider2.webp" alt="Alpha Car Detail slider photo">
                 <div class="carousel-caption">
                     <div class="container">
                         <div class="row justify-content-start">
@@ -11,7 +11,7 @@
                                 <h3 class="display-1 mb-4 animated slideInDown">Alpha Car Detail
                                 </h3>
                                 <h5>@lang('common.slider_text')</h5>
-                                <a href="#" class="btn btn-warning px-3 animated slideInDown text-uppercase">@lang('common.slider_button_text')</a>
+                                <a href="{{ route('pages.projects') }}" class="btn btn-warning px-3 animated slideInDown text-uppercase">@lang('common.slider_button_text')</a>
                             </div>
                         </div>
                     </div>
@@ -19,7 +19,7 @@
             </div>
             <div class="carousel-item">
                 <div class="overlay"></div>
-                <img class="w-100" src="img/alpha_car_detail_slider.jpg" alt="Alpha Car Detail slider photo">
+                <img class="w-100" src="img/alpha_car_detail_slider.webp" alt="Alpha Car Detail slider photo">
                 <div class="carousel-caption">
                     <div class="container">
                         <div class="row justify-content-start">
@@ -27,7 +27,7 @@
                                 <h3 class="display-1 mb-4 animated slideInDown">Alpha Car Detail
                                 </h3>
                                 <h5>@lang('common.slider_text')</h5>
-                                <a href="#" class="btn btn-warning px-3 animated slideInDown text-uppercase">@lang('common.slider_button_text')</a>
+                                <a href="{{ route('pages.projects') }}" class="btn btn-warning px-3 animated slideInDown text-uppercase">@lang('common.slider_button_text')</a>
                             </div>
                         </div>
                     </div>

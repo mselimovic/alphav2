@@ -7,7 +7,7 @@
                         <i class="fa fa-quote-left fa-2x alpha-primary mb-3"></i>
                         <p class="fs-4">{{__('common.erhan')}}</p>
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/social/testemonials/erhan.png"
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/social/testemonials/erhan.webp"
                                 style="width: 60px; height: 60px;">
                             <div class="ps-3">
                                 <h5 class="mb-1">Erhan Gee</h5>
@@ -18,7 +18,7 @@
                         <i class="fa fa-quote-left fa-2x alpha-primary mb-3"></i>
                         <p class="fs-4">{{__('common.robert')}}</p>
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/social/testemonials/robert.png"
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/social/testemonials/robert.webp"
                                 style="width: 60px; height: 60px;">
                             <div class="ps-3">
                                 <h5 class="mb-1">Robert Tuscher Tuscher Bau und Immobilien</h5>
@@ -29,7 +29,7 @@
                         <i class="fa fa-quote-left fa-2x alpha-primary mb-3"></i>
                         <p class="fs-4">{{__('common.jahic')}}</p>
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/social/testemonials/amer.png"
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/social/testemonials/amer.webp"
                                 style="width: 60px; height: 60px;">
                             <div class="ps-3">
                                 <h5 class="mb-1">Jahic Amer</h5>
@@ -40,7 +40,7 @@
                         <i class="fa fa-quote-left fa-2x alpha-primary mb-3"></i>
                         <p class="fs-4">{{__('common.boris')}}</p>
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/social/testemonials/boris.png"
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/social/testemonials/boris.webp"
                                 style="width: 60px; height: 60px;">
                             <div class="ps-3">
                                 <h5 class="mb-1">Boris Legenovic</h5>
@@ -51,7 +51,7 @@
                         <i class="fa fa-quote-left fa-2x alpha-primary mb-3"></i>
                         <p class="fs-4">{{__('common.christiane')}}</p>
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/social/testemonials/christine.png"
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/social/testemonials/christine.webp"
                                 style="width: 60px; height: 60px;">
                             <div class="ps-3">
                                 <h5 class="mb-1">Christiane Pippereit</h5>
@@ -62,7 +62,7 @@
                         <i class="fa fa-quote-left fa-2x alpha-primary mb-3"></i>
                         <p class="fs-4">{{__('common.sema')}}</p>
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/social/testemonials/bn.png"
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/social/testemonials/bn.webp"
                                 style="width: 60px; height: 60px;">
                             <div class="ps-3">
                                 <h5 class="mb-1">Bn Sema</h5>
@@ -73,7 +73,7 @@
             </div>
             <div class="col-lg-5">
                 <div class="img-border">
-                    <img class="img-fluid" src="img/testemonials.jpg" alt="">
+                    <img class="img-fluid" src="img/testemonials.webp" alt="">
                 </div>
             </div>
         </div>
